@@ -30,3 +30,9 @@ models_dev_cache.json
 bin/
 .env
 cron/
+logs/
+gateway.pid
+gateway_state.json
+channel_directory.json
+state.db-shm
+state.db-wal
