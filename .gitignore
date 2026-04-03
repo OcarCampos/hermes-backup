@@ -27,3 +27,4 @@ Thumbs.db
 *.swp
 *~
 models_dev_cache.json
+bin/
