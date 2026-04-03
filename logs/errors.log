@@ -13,3 +13,4 @@
 <hr><center>nginx</center>
 </body>
 </html>
+2026-04-03 02:02:10,432 WARNING gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220

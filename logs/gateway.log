@@ -178,3 +178,36 @@
 2026-04-03 01:28:09,586 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (446 chars)
 2026-04-03 01:29:11,245 INFO gateway.platforms.base: [Telegram] Sending response (1079 chars) to 1565773783
 2026-04-03 01:30:27,663 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (17 chars)
+2026-04-03 02:02:10,256 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-04-03 02:02:10,258 INFO gateway.run: Starting Hermes Gateway...
+2026-04-03 02:02:10,259 INFO gateway.run: Session storage: /home/ocarjohann/.hermes/sessions
+2026-04-03 02:02:10,327 INFO gateway.run: Connecting to telegram...
+2026-04-03 02:02:10,430 INFO httpx: HTTP Request: GET https://dns.google/resolve?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-03 02:02:10,431 INFO httpx: HTTP Request: GET https://cloudflare-dns.com/dns-query?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-03 02:02:10,432 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-04-03 02:02:10,432 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-04-03 02:02:10,432 WARNING gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-04-03 02:02:11,296 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getMe "HTTP/1.1 200 OK"
+2026-04-03 02:02:11,296 INFO telegram.ext.Application: Application started
+2026-04-03 02:02:11,576 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-03 02:02:12,028 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/setMyCommands "HTTP/1.1 200 OK"
+2026-04-03 02:02:12,029 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-04-03 02:02:12,029 INFO gateway.run: ✓ telegram connected
+2026-04-03 02:02:12,030 INFO gateway.run: 1 hook(s) loaded
+2026-04-03 02:02:12,030 INFO gateway.run: Gateway running with 1 platform(s)
+2026-04-03 02:02:12,031 INFO gateway.run: Channel directory built: 1 target(s)
+2026-04-03 02:02:12,031 INFO gateway.run: Press Ctrl+C to stop
+2026-04-03 02:02:12,047 INFO gateway.run: Cron ticker started (interval=60s)
+2026-04-03 02:02:12,480 INFO tools.tirith_security: cosign not on PATH — installing tirith with SHA-256 verification only (install cosign for full supply chain verification)
+2026-04-03 02:02:12,566 INFO tools.tirith_security: tirith installed to /home/ocarjohann/.hermes/bin/tirith (SHA-256 only)
+2026-04-03 02:02:22,882 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:02:33,333 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:02:43,773 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:02:54,217 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:03:04,662 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:03:15,107 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:03:25,558 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:03:35,841 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:03:42,038 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-03 02:03:42,639 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (27 chars)
+2026-04-03 02:03:43,427 INFO run_agent: Loaded environment variables from /home/ocarjohann/.hermes/.env
