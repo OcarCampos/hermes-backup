@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-04-03T01:29:01.649686",
+  "platforms": {
+    "telegram": [
+      {
+        "id": "1565773783",
+        "name": "O'car Johann",
+        "type": "dm",
+        "thread_id": null
+      }
+    ],
+    "whatsapp": [],
+    "signal": [],
+    "email": [],
+    "sms": []
+  }
+}

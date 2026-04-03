@@ -1,0 +1,4 @@
+23:46:47 ENTER: queued interrupt msg='stop', agent_running=True
+23:46:47 interrupt fired: msg='stop', children=0, parent._interrupt=True
+23:46:52 ENTER: queued interrupt msg='exit', agent_running=True
+23:46:52 interrupt fired: msg='exit', children=0, parent._interrupt=True

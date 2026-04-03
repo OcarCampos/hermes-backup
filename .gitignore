@@ -1,0 +1,29 @@
+# Hermes app code — large, regeneratable,有自己的git
+hermes-agent/
+
+# Caches
+cache/
+audio_cache/
+image_cache/
+*.pyc
+__pycache__/
+
+# State DB WAL/shm
+state.db-shm
+state.db-wal
+
+# Downloaded binaries (use package managers)
+/node_modules/
+
+# Lock files
+*.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.swp
+*~
+models_dev_cache.json

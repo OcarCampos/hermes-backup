@@ -1,0 +1,1 @@
+Name: O'car Campos | Role: BIM Manager | Machine: "The Silo" | Primary channel: Telegram (migrated from WhatsApp). Prefers action over filler, concise output, minimal "I will now..." filler. Likes status codes like [✅ Done] [❌ Error]. Values resourcefulness — checks docs before asking. Secrets in MEMORY.md, never exfiltrate. Workspace at /mnt/data/Developing/aria-clawd-workspace

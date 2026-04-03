@@ -1,0 +1,180 @@
+2026-04-02 23:29:57,538 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-04-02 23:29:57,543 INFO gateway.run: Starting Hermes Gateway...
+2026-04-02 23:29:57,543 INFO gateway.run: Session storage: /home/ocarjohann/.hermes/sessions
+2026-04-02 23:29:57,815 INFO gateway.run: Connecting to telegram...
+2026-04-02 23:29:57,922 INFO httpx: HTTP Request: GET https://cloudflare-dns.com/dns-query?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-02 23:29:57,923 INFO httpx: HTTP Request: GET https://dns.google/resolve?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-02 23:29:57,924 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-04-02 23:29:57,925 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-04-02 23:29:57,925 WARNING gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-04-02 23:29:59,465 INFO tools.tirith_security: cosign not on PATH — installing tirith with SHA-256 verification only (install cosign for full supply chain verification)
+2026-04-02 23:29:59,562 INFO tools.tirith_security: tirith installed to /home/ocarjohann/.hermes/bin/tirith (SHA-256 only)
+2026-04-02 23:30:00,550 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getMe "HTTP/1.1 200 OK"
+2026-04-02 23:30:00,551 INFO telegram.ext.Application: Application started
+2026-04-02 23:30:00,849 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-02 23:30:01,479 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/setMyCommands "HTTP/1.1 200 OK"
+2026-04-02 23:30:01,481 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-04-02 23:30:01,481 INFO gateway.run: ✓ telegram connected
+2026-04-02 23:30:01,481 INFO gateway.run: 1 hook(s) loaded
+2026-04-02 23:30:01,481 INFO gateway.run: Gateway running with 1 platform(s)
+2026-04-02 23:30:01,484 INFO gateway.run: Channel directory built: 0 target(s)
+2026-04-02 23:30:01,484 INFO gateway.run: Press Ctrl+C to stop
+2026-04-02 23:30:01,538 INFO gateway.run: Cron ticker started (interval=60s)
+2026-04-02 23:30:11,895 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:30:22,344 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:30:32,789 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:30:43,204 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:30:53,438 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:31:03,812 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:31:14,155 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:31:25,009 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:31:35,556 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:31:45,841 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:31:56,344 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:32:06,789 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:32:17,029 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:32:27,374 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:32:37,818 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:32:48,056 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:32:58,399 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:33:08,844 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:33:19,291 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:33:29,736 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:33:40,178 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:33:50,623 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:34:01,068 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:34:11,513 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:34:21,958 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:34:32,198 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:34:42,438 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:34:52,988 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:35:03,448 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:35:13,880 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:35:24,324 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:35:34,766 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:35:45,210 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:35:55,450 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:36:05,690 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:36:16,238 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:36:26,683 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:36:37,127 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:36:47,574 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:36:58,022 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:37:08,464 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:37:18,910 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:37:29,352 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:37:39,591 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:37:49,935 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:38:00,380 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:38:10,824 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:38:21,271 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:38:31,612 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:38:42,161 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:38:52,604 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:39:03,049 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:39:13,502 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:39:23,939 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:39:34,387 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:39:44,828 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:39:55,176 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:40:05,721 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:40:16,166 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:40:26,505 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:40:37,060 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:40:47,395 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:40:57,943 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:41:08,388 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:41:18,935 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:41:29,280 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:41:39,725 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:41:50,170 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:42:00,615 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:42:11,057 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:42:21,502 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:42:31,741 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:42:42,084 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:42:52,531 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:43:02,978 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:43:13,418 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:43:23,864 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:43:34,308 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:43:44,753 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:43:55,096 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:44:05,645 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:44:16,091 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:44:26,424 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:44:36,980 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:44:47,217 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:44:57,565 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:45:08,004 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:45:18,449 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:45:28,895 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:45:39,339 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:45:49,789 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:46:00,232 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:46:10,674 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:46:21,119 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:46:31,361 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:46:41,598 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:46:51,839 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:47:02,288 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:47:12,728 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:47:23,174 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:47:34,233 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:47:44,695 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:47:55,123 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:48:05,363 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:48:15,708 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:48:26,040 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:48:36,283 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:48:46,524 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:48:56,873 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:49:07,321 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:49:17,658 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:49:28,205 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:49:38,650 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:49:49,095 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:49:59,395 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:50:09,682 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:50:20,125 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:50:30,569 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:50:37,120 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-02 23:50:37,498 INFO run_agent: Loaded environment variables from /home/ocarjohann/.hermes/.env
+2026-04-02 23:50:40,550 INFO anthropic._base_client: Retrying request to /v1/messages in 0.430266 seconds
+2026-04-02 23:50:42,066 INFO anthropic._base_client: Retrying request to /v1/messages in 0.890281 seconds
+2026-04-02 23:50:44,348 INFO anthropic._base_client: Retrying request to /v1/messages in 0.488767 seconds
+2026-04-02 23:50:45,244 INFO anthropic._base_client: Retrying request to /v1/messages in 0.811245 seconds
+2026-04-02 23:50:49,432 INFO anthropic._base_client: Retrying request to /v1/messages in 0.454478 seconds
+2026-04-02 23:50:51,098 INFO anthropic._base_client: Retrying request to /v1/messages in 0.846755 seconds
+2026-04-02 23:50:53,290 INFO anthropic._base_client: Retrying request to /v1/messages in 0.475061 seconds
+2026-04-02 23:50:54,006 INFO anthropic._base_client: Retrying request to /v1/messages in 0.845136 seconds
+2026-04-02 23:50:58,685 INFO gateway.platforms.base: [Telegram] Sending response (65 chars) to 1565773783
+2026-04-02 23:50:59,000 INFO agent.auxiliary_client: Auxiliary auto-detect: using api-key (MiniMax-M2.7-highspeed) — skipped: openrouter, nous, local/custom, openai-codex
+2026-04-02 23:50:59,000 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-03 00:19:41,145 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (12 chars)
+2026-04-03 00:19:54,658 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-03 00:19:54,660 INFO gateway.platforms.base: [Telegram] Sending response (215 chars) to 1565773783
+2026-04-03 00:34:52,559 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (403 chars)
+2026-04-03 00:35:10,635 INFO gateway.platforms.base: [Telegram] Sending response (642 chars) to 1565773783
+2026-04-03 00:41:57,099 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (446 chars)
+2026-04-03 00:42:34,998 INFO gateway.platforms.base: [Telegram] Sending response (1000 chars) to 1565773783
+2026-04-03 00:52:58,581 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (757 chars)
+2026-04-03 00:53:52,182 INFO gateway.platforms.base: [Telegram] Sending response (1503 chars) to 1565773783
+2026-04-03 01:02:44,522 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1103 chars)
+2026-04-03 01:03:43,920 INFO gateway.platforms.base: [Telegram] Sending response (1725 chars) to 1565773783
+2026-04-03 01:05:10,197 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (40 chars)
+2026-04-03 01:06:01,771 INFO gateway.platforms.base: [Telegram] Sending response (610 chars) to 1565773783
+2026-04-03 01:06:05,331 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-03 01:12:41,876 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (541 chars)
+2026-04-03 01:13:07,653 INFO gateway.platforms.base: [Telegram] Sending response (1005 chars) to 1565773783
+2026-04-03 01:22:32,179 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (463 chars)
+2026-04-03 01:23:12,705 INFO gateway.platforms.base: [Telegram] Sending response (1697 chars) to 1565773783
+2026-04-03 01:28:09,586 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (446 chars)
+2026-04-03 01:29:11,245 INFO gateway.platforms.base: [Telegram] Sending response (1079 chars) to 1565773783
+2026-04-03 01:30:27,663 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (17 chars)
