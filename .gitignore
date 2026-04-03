@@ -28,3 +28,5 @@ Thumbs.db
 *~
 models_dev_cache.json
 bin/
+.env
+cron/
