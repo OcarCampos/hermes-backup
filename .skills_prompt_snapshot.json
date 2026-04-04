@@ -30,8 +30,8 @@
       25020
     ],
     "autonomous-ai-agents/opencode/SKILL.md": [
-      1775182620660691646,
-      7356
+      1775235409432597711,
+      1909
     ],
     "creative/ascii-art/SKILL.md": [
       1775182620661107277,
@@ -52,6 +52,18 @@
     "data-science/jupyter-live-kernel/SKILL.md": [
       1775182620663062231,
       5571
+    ],
+    "devops/agent-browser/SKILL.md": [
+      1775235409404574641,
+      4426
+    ],
+    "devops/qbittorrent/SKILL.md": [
+      1775235449566762331,
+      2511
+    ],
+    "devops/unraid/SKILL.md": [
+      1775235449564809964,
+      2740
     ],
     "devops/webhook-subscriptions/SKILL.md": [
       1775182620663172302,
@@ -101,6 +113,14 @@
       1775182620666206527,
       3088
     ],
+    "leisure/weather/SKILL.md": [
+      1775235410045799340,
+      1569
+    ],
+    "mcp/mcp-cli-ent/SKILL.md": [
+      1775235409402672070,
+      2134
+    ],
     "mcp/mcporter/SKILL.md": [
       1775182620666470880,
       3152
@@ -116,6 +136,10 @@
     "media/heartmula/SKILL.md": [
       1775182620666698356,
       6402
+    ],
+    "media/md-over-here/SKILL.md": [
+      1775235409440581025,
+      1627
     ],
     "media/songsee/SKILL.md": [
       1775182620666698356,
@@ -185,6 +209,10 @@
       1775182620671374990,
       7491
     ],
+    "mlops/ollama/SKILL.md": [
+      1775235409450798871,
+      1847
+    ],
     "mlops/research/dspy/SKILL.md": [
       1775182620671654638,
       15316
@@ -216,6 +244,10 @@
     "note-taking/obsidian/SKILL.md": [
       1775182620679386729,
       1264
+    ],
+    "note-taking/qmd/SKILL.md": [
+      1775235409417543642,
+      1748
     ],
     "productivity/google-workspace/SKILL.md": [
       1775182620679525157,
@@ -260,6 +292,10 @@
     "research/research-paper-writing/SKILL.md": [
       1775182620685336168,
       65431
+    ],
+    "smart-home/nordvpn/SKILL.md": [
+      1775235409411750230,
+      2553
     ],
     "smart-home/openhue/SKILL.md": [
       1775182620690972364,
@@ -514,7 +550,7 @@
       "skill_name": "opencode",
       "category": "autonomous-ai-agents",
       "frontmatter_name": "opencode",
-      "description": "Delegate coding tasks to OpenCode CLI agent for feature i...",
+      "description": "Coding agent orchestrator for refactoring, architecture, ...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -580,6 +616,45 @@
       "category": "data-science",
       "frontmatter_name": "jupyter-live-kernel",
       "description": "Use a live Jupyter kernel for stateful, iterative Python ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "agent-browser",
+      "category": "devops",
+      "frontmatter_name": "agent-browser",
+      "description": "Headless browser automation CLI for AI agents. Use when n...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "qbittorrent",
+      "category": "devops",
+      "frontmatter_name": "qbittorrent",
+      "description": "Manage torrents with qBittorrent via WebUI API. Use when ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "unraid",
+      "category": "devops",
+      "frontmatter_name": "unraid",
+      "description": "Query and monitor Unraid servers via the GraphQL API. Use...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -745,6 +820,32 @@
       }
     },
     {
+      "skill_name": "weather",
+      "category": "leisure",
+      "frontmatter_name": "weather",
+      "description": "Weather service via wttr.in for current weather and forec...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "mcp-cli-ent",
+      "category": "mcp",
+      "frontmatter_name": "mcp-cli-ent",
+      "description": "MCP (Model Context Protocol) client for on-demand tool ca...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "mcporter",
       "category": "mcp",
       "frontmatter_name": "mcporter",
@@ -788,6 +889,19 @@
       "category": "media",
       "frontmatter_name": "heartmula",
       "description": "Set up and run HeartMuLa, the open-source music generatio...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "md-over-here",
+      "category": "media",
+      "frontmatter_name": "md-over-here",
+      "description": "Web to markdown converter CLI that fetches web pages and ...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1018,6 +1132,19 @@
       }
     },
     {
+      "skill_name": "ollama",
+      "category": "mlops",
+      "frontmatter_name": "ollama",
+      "description": "Local AI backend for free, private, offline inference. Us...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "dspy",
       "category": "mlops/research",
       "frontmatter_name": "dspy",
@@ -1113,6 +1240,19 @@
       "category": "note-taking",
       "frontmatter_name": "obsidian",
       "description": "Read, search, and create notes in the Obsidian vault.",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "qmd",
+      "category": "note-taking",
+      "frontmatter_name": "qmd",
+      "description": "Query Markdown Database - Fast full-text, vector similari...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1266,6 +1406,19 @@
           "terminal",
           "files"
         ],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "nordvpn",
+      "category": "smart-home",
+      "frontmatter_name": "nordvpn",
+      "description": "NordVPN CLI for secure network connections. Use when the ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
         "fallback_for_tools": [],
         "requires_tools": []
       }

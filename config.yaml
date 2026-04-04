@@ -100,9 +100,9 @@ smart_model_routing:
 auxiliary:
   vision:
     provider: auto
-    model: ''
+    model: 'GLM-4.6V-Flash'
     base_url: https://api.z.ai/api/paas/v4/
-    api_key: ''
+    api_key: 'efc5eae09e0d4c40947cf0cf4e788215.8QEmcYPxO9PUsejM'
     timeout: 30
     download_timeout: 30
   web_extract:
@@ -161,7 +161,7 @@ display:
   tool_progress_command: false
   tool_preview_length: 0
   tool_progress: all
-  background_process_notifications: all
+  background_process_notifications: result
 privacy:
   redact_pii: false
 tts:
@@ -228,7 +228,7 @@ discord:
   reactions: true
 whatsapp: {}
 approvals:
-  mode: manual
+  mode: off
   timeout: 60
 command_allowlist: []
 quick_commands: {}
@@ -301,11 +301,6 @@ code_execution:
   max_tool_calls: 50
 web:
   backend: firecrawl
-custom_providers:
-- name: Api.minimax.io
-  base_url: https://api.minimax.io/anthropic
-  api_key: sk-api-I_NKo6Obt8U2RWItli78k5VfKaA8AHDvn444fY8X5ChgoOgQpL9eOTBCPV5MZHkMIc_XLuE3pY2xuTWVtOJ_Hc36ntIu0x6Dm9MpRqov_syLnsc84GoKCIw
-  model: MiniMax-M2.7
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.
