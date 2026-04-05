@@ -1676,3 +1676,189 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-04 01:48:14,999 INFO gateway.platforms.base: [Telegram] Sending response (260 chars) to 1565773783
 2026-04-04 01:53:00,869 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (34 chars)
 2026-04-04 01:53:11,054 INFO gateway.platforms.base: [Telegram] Sending response (64 chars) to 1565773783
+2026-04-04 04:04:48,605 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:09:49,042 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:14:49,484 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:19:49,916 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:24:50,353 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:29:50,792 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:34:51,227 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:39:51,669 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:44:52,107 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:49:52,553 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:54:52,990 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 04:59:53,422 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:04:53,861 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:09:54,300 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:14:54,736 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:19:55,175 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:24:55,613 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:29:56,048 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:34:56,487 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:39:56,922 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:44:57,363 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:49:57,808 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:54:58,240 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 05:59:58,676 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:04:59,107 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:09:59,546 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:14:59,978 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:20:00,422 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:25:00,866 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:30:01,305 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:35:01,746 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:40:02,181 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:45:02,626 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:50:03,067 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 06:55:03,504 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:00:03,939 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:05:04,372 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:10:04,816 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:15:05,249 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:20:05,688 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:25:06,117 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:30:06,559 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:35:06,991 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:40:07,422 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:45:07,857 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:50:08,288 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 07:55:08,725 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:00:09,162 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:05:09,602 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:10:10,038 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:15:10,480 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:20:10,911 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:25:11,346 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:30:11,782 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:35:12,210 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:40:12,651 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:45:13,086 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:50:13,521 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 08:55:13,958 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:00:14,400 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:05:14,835 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:10:15,265 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:15:15,708 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:20:16,150 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:25:16,587 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:30:17,023 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:35:17,463 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:40:17,894 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:45:18,330 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:50:18,775 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 09:55:19,209 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 10:00:19,645 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 10:05:20,072 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 10:10:20,507 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 10:15:20,936 INFO gateway.run: Session 20260404_014315_d4bb17 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-04 10:19:19,248 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (22 chars)
+2026-04-04 10:19:26,457 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-04 10:19:29,427 INFO gateway.platforms.base: [Telegram] Sending response (86 chars) to 1565773783
+2026-04-04 10:21:45,475 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (69 chars)
+2026-04-04 10:21:59,747 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-04 10:21:59,749 INFO gateway.platforms.base: [Telegram] Sending response (403 chars) to 1565773783
+2026-04-04 10:25:56,456 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (833 chars)
+2026-04-04 10:29:24,468 INFO gateway.platforms.base: [Telegram] Sending response (376 chars) to 1565773783
+2026-04-04 10:29:28,523 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-04 10:32:30,306 INFO gateway.platforms.telegram: [Telegram] Cached user photo at /home/ocarjohann/.hermes/image_cache/img_6cfc24bafe9d.jpg
+2026-04-04 10:32:31,108 INFO gateway.platforms.telegram: [Telegram] Flushing photo batch agent:main:telegram:dm:1565773783:photo-burst with 1 image(s)
+2026-04-04 10:43:53,244 INFO gateway.platforms.base: [Telegram] Sending response (1065 chars) to 1565773783
+2026-04-04 10:43:57,302 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-04 10:51:59,094 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (684 chars)
+2026-04-04 10:53:10,916 INFO gateway.platforms.base: [Telegram] Sending response (946 chars) to 1565773783
+2026-04-04 10:56:20,014 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (167 chars)
+2026-04-04 10:56:43,600 INFO gateway.platforms.base: [Telegram] Sending response (320 chars) to 1565773783
+2026-04-04 11:01:04,176 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (580 chars)
+2026-04-04 11:01:27,975 INFO gateway.platforms.base: [Telegram] Sending response (486 chars) to 1565773783
+2026-04-04 11:02:39,409 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (167 chars)
+2026-04-04 11:04:00,767 INFO gateway.platforms.base: [Telegram] Sending response (420 chars) to 1565773783
+2026-04-04 11:04:04,329 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-04 11:06:48,241 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (558 chars)
+2026-04-04 11:08:06,211 INFO gateway.platforms.base: [Telegram] Sending response (444 chars) to 1565773783
+2026-04-04 11:09:43,655 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (213 chars)
+2026-04-04 11:09:43,751 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-04 11:09:46,045 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-04 11:09:46,226 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-04 11:10:02,501 INFO gateway.run: Session split detected: 20260404_101919_fadc08bc → 20260404_110946_8657dc (compression)
+2026-04-04 11:10:02,515 INFO gateway.platforms.base: [Telegram] Sending response (314 chars) to 1565773783
+2026-04-04 11:10:53,194 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (32 chars)
+2026-04-04 11:11:13,505 INFO gateway.platforms.base: [Telegram] Sending response (984 chars) to 1565773783
+2026-04-04 11:18:28,052 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (104 chars)
+2026-04-04 11:18:38,246 INFO gateway.platforms.base: [Telegram] Sending response (183 chars) to 1565773783
+2026-04-04 11:18:38,403 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-04 12:08:16,521 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (78 chars)
+2026-04-04 12:08:27,101 INFO gateway.platforms.base: [Telegram] Sending response (148 chars) to 1565773783
+2026-04-04 13:33:32,472 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (191 chars)
+2026-04-04 13:33:43,066 INFO gateway.platforms.base: [Telegram] Sending response (206 chars) to 1565773783
+2026-04-04 13:59:47,295 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (85 chars)
+2026-04-04 14:00:00,435 INFO gateway.platforms.base: [Telegram] Sending response (167 chars) to 1565773783
+2026-04-04 14:00:30,186 INFO gateway.platforms.telegram: [Telegram] Cached user voice at /home/ocarjohann/.hermes/audio_cache/audio_1e5fb6780e95.ogg
+2026-04-04 14:00:30,474 ERROR tools.transcription_tools: Local transcription failed: Invalid model size 'whisper-1', expected one of: tiny.en, tiny, base.en, base, small.en, small, medium.en, medium, large-v1, large-v2, large-v3, large, distil-large-v2, distil-medium.en, distil-small.en, distil-large-v3, distil-large-v3.5, large-v3-turbo, turbo
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/transcription_tools.py", line 295, in _transcribe_local
+    _local_model = WhisperModel(model_name, device="auto", compute_type="auto")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/faster_whisper/utils.py", line 86, in download_model
+    raise ValueError(
+ValueError: Invalid model size 'whisper-1', expected one of: tiny.en, tiny, base.en, base, small.en, small, medium.en, medium, large-v1, large-v2, large-v3, large, distil-large-v2, distil-medium.en, distil-small.en, distil-large-v3, distil-large-v3.5, large-v3-turbo, turbo
+2026-04-04 14:00:45,260 INFO gateway.platforms.base: [Telegram] Sending response (285 chars) to 1565773783
+2026-04-04 14:01:05,067 INFO gateway.platforms.telegram: [Telegram] Cached user voice at /home/ocarjohann/.hermes/audio_cache/audio_ad3e879b4fd8.ogg
+2026-04-04 14:01:05,113 ERROR tools.transcription_tools: Local transcription failed: Invalid model size 'whisper-1', expected one of: tiny.en, tiny, base.en, base, small.en, small, medium.en, medium, large-v1, large-v2, large-v3, large, distil-large-v2, distil-medium.en, distil-small.en, distil-large-v3, distil-large-v3.5, large-v3-turbo, turbo
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/transcription_tools.py", line 295, in _transcribe_local
+    _local_model = WhisperModel(model_name, device="auto", compute_type="auto")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/faster_whisper/utils.py", line 86, in download_model
+    raise ValueError(
+ValueError: Invalid model size 'whisper-1', expected one of: tiny.en, tiny, base.en, base, small.en, small, medium.en, medium, large-v1, large-v2, large-v3, large, distil-large-v2, distil-medium.en, distil-small.en, distil-large-v3, distil-large-v3.5, large-v3-turbo, turbo
+2026-04-04 14:01:24,182 INFO gateway.platforms.base: [Telegram] Sending response (748 chars) to 1565773783
+2026-04-04 14:24:32,212 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (63 chars)
+2026-04-04 14:24:48,321 INFO gateway.platforms.base: [Telegram] Sending response (480 chars) to 1565773783
+2026-04-04 14:24:51,372 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-04 14:37:17,971 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (297 chars)
+2026-04-04 14:37:50,848 INFO gateway.platforms.base: [Telegram] Sending response (190 chars) to 1565773783
+2026-04-04 22:32:56,396 INFO gateway.run: Image cache cleanup: removed 2 stale file(s)
+2026-04-04 23:32:56,467 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
+2026-04-04 23:32:56,537 INFO gateway.run: Image cache cleanup: removed 3 stale file(s)
