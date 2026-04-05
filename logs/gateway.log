@@ -1862,3 +1862,4 @@ ValueError: Invalid model size 'whisper-1', expected one of: tiny.en, tiny, base
 2026-04-04 22:32:56,396 INFO gateway.run: Image cache cleanup: removed 2 stale file(s)
 2026-04-04 23:32:56,467 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
 2026-04-04 23:32:56,537 INFO gateway.run: Image cache cleanup: removed 3 stale file(s)
+2026-04-05 01:33:20,069 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
