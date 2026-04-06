@@ -1863,3 +1863,703 @@ ValueError: Invalid model size 'whisper-1', expected one of: tiny.en, tiny, base
 2026-04-04 23:32:56,467 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
 2026-04-04 23:32:56,537 INFO gateway.run: Image cache cleanup: removed 3 stale file(s)
 2026-04-05 01:33:20,069 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
+2026-04-05 04:01:59,321 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:06:59,764 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:12:00,204 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:17:00,643 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:22:01,075 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:27:01,520 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:32:01,960 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:37:02,392 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:42:02,834 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:47:03,270 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:52:03,705 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 04:57:04,139 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:02:04,573 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:07:04,996 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:12:05,433 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:17:05,861 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:22:06,289 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:27:06,721 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:32:07,147 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:37:07,581 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:42:08,007 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:47:08,440 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:52:08,868 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 05:57:09,292 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:02:09,728 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:07:10,161 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:12:10,610 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:17:11,049 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:22:11,482 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:27:11,909 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:32:12,346 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:37:12,785 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:42:13,223 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:47:13,661 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:52:14,096 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 06:57:14,536 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 07:02:14,978 INFO gateway.run: Session 20260404_110946_8657dc expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-05 07:02:18,068 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (12 chars)
+2026-04-05 07:02:25,579 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 07:02:28,262 INFO gateway.platforms.base: [Telegram] Sending response (36 chars) to 1565773783
+2026-04-05 07:03:03,529 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (103 chars)
+2026-04-05 07:03:38,183 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 07:03:38,186 INFO gateway.platforms.base: [Telegram] Sending response (351 chars) to 1565773783
+2026-04-05 07:05:52,494 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (201 chars)
+2026-04-05 07:06:15,490 INFO gateway.platforms.base: [Telegram] Sending response (230 chars) to 1565773783
+2026-04-05 07:07:06,528 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (36 chars)
+2026-04-05 07:07:16,136 INFO gateway.platforms.base: [Telegram] Sending response (29 chars) to 1565773783
+2026-04-05 07:27:41,485 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (59 chars)
+2026-04-05 07:27:51,662 INFO gateway.platforms.base: [Telegram] Sending response (83 chars) to 1565773783
+2026-04-05 09:33:38,050 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
+2026-04-05 10:11:58,702 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (509 chars)
+2026-04-05 10:12:33,143 INFO gateway.platforms.base: [Telegram] Sending response (423 chars) to 1565773783
+2026-04-05 10:12:36,197 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 10:13:05,709 INFO gateway.platforms.telegram: [Telegram] Cached user photo at /home/ocarjohann/.hermes/image_cache/img_e9a27b86e21b.jpg
+2026-04-05 10:13:06,511 INFO gateway.platforms.telegram: [Telegram] Flushing photo batch agent:main:telegram:dm:1565773783:photo-burst with 1 image(s)
+2026-04-05 10:15:14,498 INFO gateway.platforms.base: [Telegram] Sending response (1624 chars) to 1565773783
+2026-04-05 10:33:20,043 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (260 chars)
+2026-04-05 10:33:43,013 INFO gateway.platforms.base: [Telegram] Sending response (1505 chars) to 1565773783
+2026-04-05 10:40:34,735 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (228 chars)
+2026-04-05 10:40:55,145 INFO gateway.platforms.base: [Telegram] Sending response (396 chars) to 1565773783
+2026-04-05 10:57:10,071 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (212 chars)
+2026-04-05 10:57:20,254 INFO gateway.platforms.base: [Telegram] Sending response (281 chars) to 1565773783
+2026-04-05 11:07:37,385 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (508 chars)
+2026-04-05 11:08:13,824 INFO gateway.platforms.base: [Telegram] Sending response (1064 chars) to 1565773783
+2026-04-05 11:08:16,876 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 13:26:04,147 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (462 chars)
+2026-04-05 13:26:57,122 INFO gateway.platforms.base: [Telegram] Sending response (905 chars) to 1565773783
+2026-04-05 13:27:00,678 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 13:29:41,029 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (420 chars)
+2026-04-05 13:30:06,766 INFO gateway.platforms.base: [Telegram] Sending response (454 chars) to 1565773783
+2026-04-05 13:33:05,319 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (143 chars)
+2026-04-05 13:33:26,345 INFO gateway.platforms.base: [Telegram] Sending response (1057 chars) to 1565773783
+2026-04-05 13:42:53,306 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (752 chars)
+2026-04-05 13:46:52,141 INFO gateway.platforms.base: [Telegram] Sending response (2623 chars) to 1565773783
+2026-04-05 13:46:56,200 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 13:57:16,853 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (507 chars)
+2026-04-05 13:59:55,371 INFO gateway.platforms.base: [Telegram] Sending response (2492 chars) to 1565773783
+2026-04-05 13:59:59,427 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 14:03:20,581 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (269 chars)
+2026-04-05 14:04:01,166 INFO gateway.platforms.base: [Telegram] Sending response (548 chars) to 1565773783
+2026-04-05 14:09:10,178 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (347 chars)
+2026-04-05 14:09:30,296 INFO gateway.platforms.base: [Telegram] Sending response (940 chars) to 1565773783
+2026-04-05 14:36:53,698 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (447 chars)
+2026-04-05 14:37:31,198 INFO gateway.platforms.base: [Telegram] Sending response (1758 chars) to 1565773783
+2026-04-05 14:46:40,441 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1141 chars)
+2026-04-05 14:47:14,378 INFO gateway.platforms.base: [Telegram] Sending response (2119 chars) to 1565773783
+2026-04-05 15:03:46,495 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (853 chars)
+2026-04-05 15:04:29,644 INFO gateway.platforms.base: [Telegram] Sending response (2414 chars) to 1565773783
+2026-04-05 15:04:34,207 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 15:08:37,113 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (68 chars)
+2026-04-05 15:09:29,376 INFO gateway.platforms.base: [Telegram] Sending response (840 chars) to 1565773783
+2026-04-05 15:09:33,439 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 15:40:29,753 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (996 chars)
+2026-04-05 15:41:22,893 INFO gateway.platforms.base: [Telegram] Sending response (665 chars) to 1565773783
+2026-04-05 15:50:21,120 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (352 chars)
+2026-04-05 15:50:39,178 INFO gateway.platforms.base: [Telegram] Sending response (927 chars) to 1565773783
+2026-04-05 15:59:57,743 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (410 chars)
+2026-04-05 16:02:13,999 INFO gateway.platforms.base: [Telegram] Sending response (711 chars) to 1565773783
+2026-04-05 16:02:14,059 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-05 16:02:15,911 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 16:02:16,093 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 16:02:19,607 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 16:10:24,740 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (182 chars)
+2026-04-05 16:10:24,841 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-05 16:10:26,516 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 16:10:26,698 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 16:10:35,211 INFO gateway.run: Session split detected: 20260405_070218_b3284816 → 20260405_161026_d4fe9f (compression)
+2026-04-05 16:10:35,229 INFO gateway.platforms.base: [Telegram] Sending response (225 chars) to 1565773783
+2026-04-05 16:10:55,869 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (21 chars)
+2026-04-05 16:11:21,326 INFO gateway.platforms.base: [Telegram] Sending response (102 chars) to 1565773783
+2026-04-05 16:13:05,719 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (81 chars)
+2026-04-05 16:13:20,294 INFO gateway.platforms.base: [Telegram] Sending response (1277 chars) to 1565773783
+2026-04-05 16:17:45,268 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (264 chars)
+2026-04-05 16:18:03,126 INFO gateway.platforms.base: [Telegram] Sending response (1173 chars) to 1565773783
+2026-04-05 16:20:18,254 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (207 chars)
+2026-04-05 16:20:40,890 INFO gateway.platforms.base: [Telegram] Sending response (473 chars) to 1565773783
+2026-04-05 16:26:59,463 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (526 chars)
+2026-04-05 16:27:23,694 INFO gateway.platforms.base: [Telegram] Sending response (958 chars) to 1565773783
+2026-04-05 16:27:26,755 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 16:28:53,233 INFO gateway.platforms.telegram: [Telegram] Cached user photo at /home/ocarjohann/.hermes/image_cache/img_9b71178f1c83.jpg
+2026-04-05 16:28:54,035 INFO gateway.platforms.telegram: [Telegram] Flushing photo batch agent:main:telegram:dm:1565773783:photo-burst with 1 image(s)
+2026-04-05 16:29:01,438 ERROR tools.vision_tools: Error analyzing image: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/vision_tools.py", line 413, in vision_analyze_tool
+    response = await async_call_llm(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/agent/auxiliary_client.py", line 1919, in async_call_llm
+    return await client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+2026-04-05 16:29:27,843 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (71 chars)
+2026-04-05 16:29:45,673 ERROR tools.vision_tools: Error analyzing image: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/vision_tools.py", line 413, in vision_analyze_tool
+    response = await async_call_llm(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/agent/auxiliary_client.py", line 1919, in async_call_llm
+    return await client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+2026-04-05 16:29:59,799 INFO gateway.platforms.base: [Telegram] Sending response (783 chars) to 1565773783
+2026-04-05 16:32:12,299 INFO gateway.platforms.telegram: [Telegram] Cached user photo at /home/ocarjohann/.hermes/image_cache/img_0ee4822b4aa5.jpg
+2026-04-05 16:32:13,101 INFO gateway.platforms.telegram: [Telegram] Flushing photo batch agent:main:telegram:dm:1565773783:photo-burst with 1 image(s)
+2026-04-05 16:32:20,502 ERROR tools.vision_tools: Error analyzing image: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/vision_tools.py", line 413, in vision_analyze_tool
+    response = await async_call_llm(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/agent/auxiliary_client.py", line 1919, in async_call_llm
+    return await client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+2026-04-05 16:32:36,170 ERROR tools.vision_tools: Error analyzing image: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/vision_tools.py", line 413, in vision_analyze_tool
+    response = await async_call_llm(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/agent/auxiliary_client.py", line 1919, in async_call_llm
+    return await client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+2026-04-05 16:32:41,004 INFO gateway.platforms.base: [Telegram] Sending response (214 chars) to 1565773783
+2026-04-05 16:32:41,889 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (41 chars)
+2026-04-05 16:32:44,068 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 16:32:54,518 INFO gateway.platforms.base: [Telegram] Sending response (820 chars) to 1565773783
+2026-04-05 16:34:50,711 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (250 chars)
+2026-04-05 16:35:37,446 INFO gateway.platforms.base: [Telegram] Sending response (811 chars) to 1565773783
+2026-04-05 16:39:16,214 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (472 chars)
+2026-04-05 16:58:37,361 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (28 chars)
+2026-04-05 18:00:28,067 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (4 chars)
+2026-04-05 18:00:59,639 INFO gateway.run: Stopping gateway...
+2026-04-05 18:01:03,402 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-04-05 18:01:03,402 INFO telegram.ext.Application: Application.stop() complete
+2026-04-05 18:01:03,403 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-04-05 18:01:03,403 INFO gateway.run: ✓ telegram disconnected
+2026-04-05 18:01:03,404 INFO gateway.run: Gateway stopped
+2026-04-05 18:01:03,404 INFO gateway.run: Cron ticker stopped
+2026-04-05 18:01:05,928 INFO gateway.run: Starting Hermes Gateway...
+2026-04-05 18:01:05,928 INFO gateway.run: Session storage: /home/ocarjohann/.hermes/sessions
+2026-04-05 18:01:05,996 INFO gateway.run: Connecting to telegram...
+2026-04-05 18:01:06,084 INFO httpx: HTTP Request: GET https://dns.google/resolve?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-05 18:01:06,090 INFO httpx: HTTP Request: GET https://cloudflare-dns.com/dns-query?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-05 18:01:06,091 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-04-05 18:01:06,091 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-04-05 18:01:06,091 WARNING gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-04-05 18:01:06,985 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getMe "HTTP/1.1 200 OK"
+2026-04-05 18:01:06,986 INFO telegram.ext.Application: Application started
+2026-04-05 18:01:07,293 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-05 18:01:07,945 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/setMyCommands "HTTP/1.1 200 OK"
+2026-04-05 18:01:07,946 INFO gateway.platforms.telegram: [Telegram] Telegram menu: 100 commands registered, 6 hidden (over 100 limit). Use /commands for full list.
+2026-04-05 18:01:07,946 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-04-05 18:01:07,946 INFO gateway.run: ✓ telegram connected
+2026-04-05 18:01:07,946 INFO gateway.run: 1 hook(s) loaded
+2026-04-05 18:01:07,947 INFO gateway.run: Gateway running with 1 platform(s)
+2026-04-05 18:01:07,947 INFO gateway.run: Channel directory built: 1 target(s)
+2026-04-05 18:01:07,947 INFO gateway.run: Press Ctrl+C to stop
+2026-04-05 18:01:07,964 INFO gateway.run: Cron ticker started (interval=60s)
+2026-04-05 18:01:11,084 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-05 18:01:11,687 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (6 chars)
+2026-04-05 18:01:12,467 INFO run_agent: Loaded environment variables from /home/ocarjohann/.hermes/.env
+2026-04-05 18:01:23,044 INFO gateway.platforms.base: [Telegram] Sending response (16 chars) to 1565773783
+2026-04-05 18:03:08,420 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (114 chars)
+2026-04-05 18:04:51,577 INFO gateway.platforms.base: [Telegram] Sending response (1070 chars) to 1565773783
+2026-04-05 18:06:17,046 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (146 chars)
+2026-04-05 18:06:20,116 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (41 chars)
+2026-04-05 18:07:43,715 INFO gateway.platforms.base: [Telegram] Sending response (1027 chars) to 1565773783
+2026-04-05 18:07:47,785 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 18:14:31,639 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (160 chars)
+2026-04-05 18:15:06,758 INFO gateway.platforms.base: [Telegram] Sending response (1262 chars) to 1565773783
+2026-04-05 18:18:57,676 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (125 chars)
+2026-04-05 18:19:37,558 INFO gateway.platforms.base: [Telegram] Sending response (1187 chars) to 1565773783
+2026-04-05 18:21:18,487 INFO anthropic._base_client: Retrying request to /v1/messages in 0.475565 seconds
+2026-04-05 18:21:18,966 INFO anthropic._base_client: Retrying request to /v1/messages in 0.853736 seconds
+2026-04-05 18:24:45,124 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (125 chars)
+2026-04-05 18:25:01,449 INFO gateway.platforms.base: [Telegram] Sending response (502 chars) to 1565773783
+2026-04-05 18:29:37,220 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1043 chars)
+2026-04-05 18:30:04,448 INFO gateway.platforms.base: [Telegram] Sending response (1163 chars) to 1565773783
+2026-04-05 18:32:17,333 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (202 chars)
+2026-04-05 18:32:31,697 INFO gateway.platforms.base: [Telegram] Sending response (602 chars) to 1565773783
+2026-04-05 18:35:51,584 INFO gateway.platforms.telegram: [Telegram] Cached user photo at /home/ocarjohann/.hermes/image_cache/img_8295ae7232c4.jpg
+2026-04-05 18:35:52,386 INFO gateway.platforms.telegram: [Telegram] Flushing photo batch agent:main:telegram:dm:1565773783:photo-burst with 1 image(s)
+2026-04-05 18:36:48,021 INFO gateway.platforms.base: [Telegram] Sending response (944 chars) to 1565773783
+2026-04-05 18:36:52,585 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 18:40:11,238 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (338 chars)
+2026-04-05 18:41:08,415 INFO gateway.platforms.base: [Telegram] Sending response (813 chars) to 1565773783
+2026-04-05 18:44:22,324 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (69 chars)
+2026-04-05 18:45:06,765 INFO gateway.platforms.base: [Telegram] Sending response (1166 chars) to 1565773783
+2026-04-05 18:45:06,966 INFO agent.auxiliary_client: Auxiliary auto-detect: using api-key (MiniMax-M2.7-highspeed) — skipped: openrouter, nous, local/custom, openai-codex
+2026-04-05 18:45:06,967 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-05 18:45:08,850 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 18:45:09,032 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 18:45:12,045 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 18:47:55,624 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (195 chars)
+2026-04-05 18:47:55,725 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-05 18:47:57,713 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 18:47:57,890 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 18:48:39,031 INFO gateway.run: Session split detected: 20260405_161026_d4fe9f → 20260405_184757_355f19 (compression)
+2026-04-05 18:48:39,047 INFO gateway.platforms.base: [Telegram] Sending response (1340 chars) to 1565773783
+2026-04-05 18:49:56,868 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (126 chars)
+2026-04-05 18:50:32,242 INFO gateway.platforms.base: [Telegram] Sending response (1043 chars) to 1565773783
+2026-04-05 18:52:09,579 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (77 chars)
+2026-04-05 18:52:45,226 INFO gateway.platforms.base: [Telegram] Sending response (1166 chars) to 1565773783
+2026-04-05 19:08:06,822 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (257 chars)
+2026-04-05 19:08:27,120 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-05 19:08:41,952 INFO gateway.platforms.base: [Telegram] Sending response (1039 chars) to 1565773783
+2026-04-05 19:08:45,514 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 19:12:18,422 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (56 chars)
+2026-04-05 19:14:01,430 INFO gateway.platforms.base: [Telegram] Sending response (863 chars) to 1565773783
+2026-04-05 19:14:04,993 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 19:16:39,866 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (291 chars)
+2026-04-05 19:17:55,067 INFO gateway.platforms.base: [Telegram] Sending response (475 chars) to 1565773783
+2026-04-05 19:20:17,863 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (97 chars)
+2026-04-05 19:20:45,460 INFO gateway.platforms.base: [Telegram] Sending response (318 chars) to 1565773783
+2026-04-05 19:23:53,930 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (178 chars)
+2026-04-05 19:26:05,221 INFO gateway.platforms.base: [Telegram] Sending response (774 chars) to 1565773783
+2026-04-05 19:26:05,277 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-05 19:26:06,544 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 19:26:06,755 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 19:26:09,770 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 19:29:30,320 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (150 chars)
+2026-04-05 19:29:30,421 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7-highspeed) at https://api.minimax.io/anthropic/
+2026-04-05 19:29:33,014 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-05 19:29:33,196 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 19:29:49,471 INFO gateway.run: Session split detected: 20260405_184757_355f19 → 20260405_192933_de49ad (compression)
+2026-04-05 19:29:49,489 INFO gateway.platforms.base: [Telegram] Sending response (585 chars) to 1565773783
+2026-04-05 19:36:53,312 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (177 chars)
+2026-04-05 19:37:13,101 INFO gateway.platforms.base: [Telegram] Sending response (966 chars) to 1565773783
+2026-04-05 20:31:50,220 INFO gateway.platforms.telegram: [Telegram] Cached user photo at /home/ocarjohann/.hermes/image_cache/img_075e47e0ed77.jpg
+2026-04-05 20:31:51,021 INFO gateway.platforms.telegram: [Telegram] Flushing photo batch agent:main:telegram:dm:1565773783:photo-burst with 1 image(s)
+2026-04-05 20:31:56,843 ERROR tools.vision_tools: Error analyzing image: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/vision_tools.py", line 413, in vision_analyze_tool
+    response = await async_call_llm(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/agent/auxiliary_client.py", line 1919, in async_call_llm
+    return await client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+2026-04-05 20:32:10,492 ERROR tools.vision_tools: Error analyzing image: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/vision_tools.py", line 413, in vision_analyze_tool
+    response = await async_call_llm(**call_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/agent/auxiliary_client.py", line 1919, in async_call_llm
+    return await client.chat.completions.create(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2714, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1884, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1669, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '1305', 'message': 'The service may be temporarily overloaded, please try again later'}}
+2026-04-05 20:32:59,719 INFO gateway.platforms.base: [Telegram] Sending response (1476 chars) to 1565773783
+2026-04-05 20:34:53,606 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (52 chars)
+2026-04-05 20:35:09,488 ERROR tools.image_generation_tool: Error generating image: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/fal_client/client.py", line 569, in _raise_for_status
+    response.raise_for_status()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://queue.fal.run/fal-ai/flux-2-pro'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/image_generation_tool.py", line 454, in image_generate_tool
+    handler = _submit_fal_request(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/image_generation_tool.py", line 208, in _submit_fal_request
+    return fal_client.submit(model, arguments=arguments, headers=request_headers)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/fal_client/client.py", line 2148, in submit
+    response = _maybe_retry_request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/fal_client/client.py", line 1075, in _maybe_retry_request
+    return _request(client, method, url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/fal_client/client.py", line 964, in _request
+    _raise_for_status(response)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/fal_client/client.py", line 586, in _raise_for_status
+    raise FalClientHTTPError(
+fal_client.client.FalClientHTTPError: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.
+2026-04-05 20:35:56,794 INFO gateway.platforms.base: [Telegram] Sending response (1459 chars) to 1565773783
+2026-04-05 20:41:26,208 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (168 chars)
+2026-04-05 20:41:51,030 INFO gateway.platforms.base: [Telegram] Sending response (1336 chars) to 1565773783
+2026-04-05 21:20:58,531 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (82 chars)
+2026-04-05 21:21:25,708 INFO gateway.platforms.base: [Telegram] Sending response (1454 chars) to 1565773783
+2026-04-05 21:21:29,270 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-05 21:22:50,865 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (149 chars)
+2026-04-05 21:23:01,079 INFO gateway.platforms.base: [Telegram] Sending response (259 chars) to 1565773783
+2026-04-05 21:26:30,413 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (203 chars)
+2026-04-05 21:27:50,639 INFO gateway.platforms.base: [Telegram] Sending response (1278 chars) to 1565773783
+2026-04-05 21:57:53,674 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (18 chars)
+2026-04-05 22:10:49,050 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (12 chars)
+2026-04-05 22:14:16,411 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (6 chars)
+2026-04-05 22:18:25,871 INFO gateway.run: Stopping gateway...
+2026-04-05 22:18:26,877 INFO gateway.run: Stopping gateway...
+2026-04-05 22:18:26,877 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-04-05 22:18:26,877 INFO telegram.ext.Application: Application.stop() complete
+2026-04-05 22:18:26,878 ERROR telegram.ext.Updater: Error while calling `get_updates` one more time to mark all fetched updates. Suppressing error to ensure graceful shutdown. When polling for updates is restarted, updates may be fetched again. Please adjust timeouts via `ApplicationBuilder` or the parameter `get_updates_request` of `Bot`.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=*** follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 91, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 400, in _get_updates_cleanup
+    await self.bot.get_updates(
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ReadError: 
+2026-04-05 22:18:26,895 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-04-05 22:18:26,895 INFO gateway.run: ✓ telegram disconnected
+2026-04-05 22:18:26,895 INFO gateway.run: Gateway stopped
+2026-04-05 22:18:26,895 INFO gateway.run: Cron ticker stopped
+2026-04-05 22:18:28,577 INFO gateway.run: Starting Hermes Gateway...
+2026-04-05 22:18:28,577 INFO gateway.run: Session storage: /home/ocarjohann/.hermes/sessions
+2026-04-05 22:18:28,702 INFO gateway.run: Connecting to telegram...
+2026-04-05 22:18:28,786 INFO httpx: HTTP Request: GET https://dns.google/resolve?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-05 22:18:28,794 INFO httpx: HTTP Request: GET https://cloudflare-dns.com/dns-query?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-05 22:18:28,795 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-04-05 22:18:28,795 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-04-05 22:18:28,795 WARNING gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-04-05 22:18:29,763 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getMe "HTTP/1.1 200 OK"
+2026-04-05 22:18:29,764 INFO telegram.ext.Application: Application started
+2026-04-05 22:18:30,069 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-05 22:18:30,377 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-05 22:18:31,020 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/setMyCommands "HTTP/1.1 200 OK"
+2026-04-05 22:18:31,021 INFO gateway.platforms.telegram: [Telegram] Telegram menu: 100 commands registered, 10 hidden (over 100 limit). Use /commands for full list.
+2026-04-05 22:18:31,021 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-04-05 22:18:31,022 INFO gateway.run: ✓ telegram connected
+2026-04-05 22:18:31,022 INFO gateway.run: 1 hook(s) loaded
+2026-04-05 22:18:31,022 INFO gateway.run: Gateway running with 1 platform(s)
+2026-04-05 22:18:31,024 INFO gateway.run: Channel directory built: 1 target(s)
+2026-04-05 22:18:31,024 INFO gateway.run: Press Ctrl+C to stop
+2026-04-05 22:18:31,048 INFO gateway.run: Cron ticker started (interval=60s)
+2026-04-05 22:18:41,234 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-05 22:18:51,676 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-05 22:18:53,364 INFO gateway.run: Stopping gateway...
+2026-04-05 22:18:57,205 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-05 22:18:57,206 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-04-05 22:18:57,206 INFO telegram.ext.Application: Application.stop() complete
+2026-04-05 22:18:57,207 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-04-05 22:18:57,207 INFO gateway.run: ✓ telegram disconnected
+2026-04-05 22:18:57,208 INFO gateway.run: Gateway stopped
+2026-04-05 22:18:57,208 INFO gateway.run: Cron ticker stopped
+2026-04-05 22:18:57,880 INFO gateway.run: Starting Hermes Gateway...
+2026-04-05 22:18:57,880 INFO gateway.run: Session storage: /home/ocarjohann/.hermes/sessions
+2026-04-05 22:18:57,963 INFO gateway.run: Connecting to telegram...
+2026-04-05 22:18:58,053 INFO httpx: HTTP Request: GET https://cloudflare-dns.com/dns-query?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-05 22:18:58,054 INFO httpx: HTTP Request: GET https://dns.google/resolve?name=api.telegram.org&type=A "HTTP/1.1 200 OK"
+2026-04-05 22:18:58,055 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-04-05 22:18:58,055 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-04-05 22:18:58,055 WARNING gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-04-05 22:18:59,254 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getMe "HTTP/1.1 200 OK"
+2026-04-05 22:18:59,255 INFO telegram.ext.Application: Application started
+2026-04-05 22:18:59,563 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-05 22:18:59,869 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-05 22:19:00,282 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/setMyCommands "HTTP/1.1 200 OK"
+2026-04-05 22:19:00,282 INFO gateway.platforms.telegram: [Telegram] Telegram menu: 100 commands registered, 10 hidden (over 100 limit). Use /commands for full list.
+2026-04-05 22:19:00,283 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-04-05 22:19:00,283 INFO gateway.run: ✓ telegram connected
+2026-04-05 22:19:00,283 INFO gateway.run: 1 hook(s) loaded
+2026-04-05 22:19:00,284 INFO gateway.run: Gateway running with 1 platform(s)
+2026-04-05 22:19:00,284 INFO gateway.run: Channel directory built: 1 target(s)
+2026-04-05 22:19:00,284 INFO gateway.run: Press Ctrl+C to stop
+2026-04-05 22:19:00,302 INFO gateway.run: Cron ticker started (interval=60s)
+2026-04-05 22:19:01,814 INFO httpx: HTTP Request: POST https://api.telegram.org/bot8610355192:***/getUpdates "HTTP/1.1 200 OK"
+2026-04-05 22:19:02,417 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (12 chars)
+2026-04-05 22:19:03,346 INFO run_agent: Loaded environment variables from /home/ocarjohann/.hermes/.env
+2026-04-05 22:19:56,317 INFO gateway.platforms.base: [Telegram] Sending response (302 chars) to 1565773783
+2026-04-05 22:21:29,236 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (113 chars)
+2026-04-05 22:21:57,363 INFO gateway.platforms.base: [Telegram] Sending response (1559 chars) to 1565773783
+2026-04-05 22:23:45,350 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (153 chars)
+2026-04-05 22:23:55,554 INFO gateway.platforms.base: [Telegram] Sending response (241 chars) to 1565773783
+2026-04-06 00:12:01,459 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (74 chars)
+2026-04-06 00:12:48,466 INFO gateway.platforms.base: [Telegram] Sending response (1328 chars) to 1565773783
+2026-04-06 00:12:52,274 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-06 00:14:46,035 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (96 chars)
+2026-04-06 00:14:56,323 INFO gateway.platforms.base: [Telegram] Sending response (219 chars) to 1565773783
+2026-04-06 00:15:57,802 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (127 chars)
+2026-04-06 00:16:07,988 INFO gateway.platforms.base: [Telegram] Sending response (97 chars) to 1565773783

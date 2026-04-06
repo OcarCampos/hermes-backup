@@ -18,8 +18,8 @@
       2442
     ],
     "autonomous-ai-agents/claude-code/SKILL.md": [
-      1775182620660691646,
-      3147
+      1775441889208999035,
+      34370
     ],
     "autonomous-ai-agents/codex/SKILL.md": [
       1775182620660691646,
@@ -44,6 +44,14 @@
     "creative/excalidraw/SKILL.md": [
       1775182620661597919,
       7252
+    ],
+    "creative/manim-video/SKILL.md": [
+      1775441889209427168,
+      9781
+    ],
+    "creative/popular-web-designs/SKILL.md": [
+      1775441889209551138,
+      9444
     ],
     "creative/songwriting-and-ai-music/SKILL.md": [
       1775182620662748360,
@@ -146,8 +154,8 @@
       2441
     ],
     "media/youtube-content/SKILL.md": [
-      1775182620666698356,
-      2550
+      1775441889212999041,
+      3152
     ],
     "mlops/cloud/modal/SKILL.md": [
       1775182620667275392,
@@ -250,8 +258,8 @@
       1748
     ],
     "productivity/google-workspace/SKILL.md": [
-      1775182620679525157,
-      8371
+      1775441889212999041,
+      8625
     ],
     "productivity/linear/SKILL.md": [
       1775182620679771490,
@@ -314,8 +322,8 @@
       2069
     ],
     "software-development/requesting-code-review/SKILL.md": [
-      1775182620691284140,
-      6149
+      1775441889213999043,
+      8606
     ],
     "software-development/subagent-driven-development/SKILL.md": [
       1775182620691284140,
@@ -590,6 +598,32 @@
       "category": "creative",
       "frontmatter_name": "excalidraw",
       "description": "Create hand-drawn style diagrams using Excalidraw JSON fo...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "manim-video",
+      "category": "creative",
+      "frontmatter_name": "manim-video",
+      "description": "Production pipeline for mathematical and technical animat...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "popular-web-designs",
+      "category": "creative",
+      "frontmatter_name": "popular-web-designs",
+      "description": "54 production-quality design systems extracted from real ...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1482,7 +1516,7 @@
       "skill_name": "requesting-code-review",
       "category": "software-development",
       "frontmatter_name": "requesting-code-review",
-      "description": "Use when completing tasks, implementing major features, o...",
+      "description": "Pre-commit verification pipeline — static security scan, ...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
