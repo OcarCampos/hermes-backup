@@ -1,9 +1,9 @@
 {
   "agent:main:telegram:dm:1565773783": {
     "session_key": "agent:main:telegram:dm:1565773783",
-    "session_id": "20260405_192933_de49ad",
-    "created_at": "2026-04-05T07:02:18.068971",
-    "updated_at": "2026-04-06T00:16:07.986474",
+    "session_id": "20260406_171930_689993",
+    "created_at": "2026-04-06T08:12:57.353711",
+    "updated_at": "2026-04-06T20:17:00.841368",
     "display_name": "O'car Johann",
     "platform": "telegram",
     "chat_type": "dm",
@@ -12,7 +12,7 @@
     "cache_read_tokens": 0,
     "cache_write_tokens": 0,
     "total_tokens": 0,
-    "last_prompt_tokens": 65610,
+    "last_prompt_tokens": 61962,
     "estimated_cost_usd": 0.0,
     "cost_status": "unknown",
     "memory_flushed": false,
