@@ -2697,3 +2697,98 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-06 20:16:29,395 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (87 chars)
 2026-04-06 20:17:00,842 INFO gateway.platforms.base: [Telegram] Sending response (102 chars) to 1565773783
 2026-04-06 21:18:21,849 INFO gateway.run: Image cache cleanup: removed 1 stale file(s)
+2026-04-07 04:02:42,004 INFO gateway.run: Session 20260406_171930_689993 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-07 04:07:42,443 INFO gateway.run: Session 20260406_171930_689993 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-07 04:12:42,883 INFO gateway.run: Session 20260406_171930_689993 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-07 04:12:42,884 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260406_171930_689993: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-07 08:58:27,940 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (198 chars)
+2026-04-07 08:58:39,140 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-07 08:58:39,157 INFO gateway.platforms.base: [Telegram] Sending response (191 chars) to 1565773783
+2026-04-07 11:34:06,908 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (470 chars)
+2026-04-07 11:34:31,090 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-07 11:34:31,091 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-07 11:34:40,435 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-07 11:34:40,436 INFO gateway.platforms.base: [Telegram] Sending response (544 chars) to 1565773783
+2026-04-07 12:16:37,623 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (627 chars)
+2026-04-07 12:17:12,154 INFO gateway.platforms.base: [Telegram] Sending response (755 chars) to 1565773783
+2026-04-07 12:37:27,725 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (648 chars)
+2026-04-07 12:37:48,902 INFO gateway.platforms.base: [Telegram] Sending response (393 chars) to 1565773783
+2026-04-07 12:40:52,219 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (54 chars)
+2026-04-07 12:41:24,815 INFO gateway.platforms.base: [Telegram] Sending response (1622 chars) to 1565773783
+2026-04-07 15:46:51,360 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (855 chars)
+2026-04-07 15:47:24,880 INFO gateway.platforms.base: [Telegram] Sending response (496 chars) to 1565773783
+2026-04-07 15:58:22,569 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (44 chars)
+2026-04-07 15:58:45,129 INFO gateway.platforms.base: [Telegram] Sending response (557 chars) to 1565773783
+2026-04-07 15:58:47,980 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-07 16:45:18,031 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (196 chars)
+2026-04-07 16:45:39,001 INFO agent.auxiliary_client: Auxiliary vision: using custom (GLM-4.6V-Flash) at https://api.z.ai/api/paas/v4/
+2026-04-07 16:46:11,117 INFO gateway.platforms.base: [Telegram] Sending response (82 chars) to 1565773783
+2026-04-07 18:50:03,999 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (505 chars)
+2026-04-07 18:50:32,292 INFO gateway.platforms.base: [Telegram] Sending response (976 chars) to 1565773783
+2026-04-07 18:52:52,651 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (414 chars)
+2026-04-07 18:53:09,684 INFO gateway.platforms.base: [Telegram] Sending response (309 chars) to 1565773783
+2026-04-07 18:58:05,384 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (3849 chars)
+2026-04-07 18:58:51,506 INFO gateway.platforms.base: [Telegram] Sending response (1054 chars) to 1565773783
+2026-04-07 18:58:54,556 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-07 19:00:36,527 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (338 chars)
+2026-04-07 19:00:50,281 INFO gateway.platforms.base: [Telegram] Sending response (245 chars) to 1565773783
+2026-04-07 19:08:18,253 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (281 chars)
+2026-04-07 19:09:08,630 INFO gateway.platforms.base: [Telegram] Sending response (454 chars) to 1565773783
+2026-04-07 19:09:11,519 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-07 19:10:09,257 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (117 chars)
+2026-04-07 19:10:26,083 INFO gateway.platforms.base: [Telegram] Sending response (109 chars) to 1565773783
+2026-04-07 19:11:00,477 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (142 chars)
+2026-04-07 19:11:10,684 INFO gateway.platforms.base: [Telegram] Sending response (112 chars) to 1565773783
+2026-04-07 19:12:42,139 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (35 chars)
+2026-04-07 19:13:24,374 INFO gateway.platforms.base: [Telegram] Sending response (111 chars) to 1565773783
+2026-04-07 19:13:37,721 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (19 chars)
+2026-04-07 19:16:32,540 INFO agent.auxiliary_client: Auxiliary vision: using custom (GLM-4.6V-Flash) at https://api.z.ai/api/paas/v4/
+2026-04-07 19:19:11,815 INFO gateway.platforms.base: [Telegram] Sending response (856 chars) to 1565773783
+2026-04-07 19:19:12,196 WARNING gateway.platforms.base: [Telegram] Failed to send media (): File not found: <path>
+2026-04-07 19:19:15,790 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-07 19:31:23,127 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1076 chars)
+2026-04-07 19:31:41,286 INFO gateway.platforms.base: [Telegram] Sending response (659 chars) to 1565773783
+2026-04-07 19:33:47,510 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (517 chars)
+2026-04-07 19:34:13,052 INFO gateway.platforms.base: [Telegram] Sending response (326 chars) to 1565773783
+2026-04-07 19:35:32,577 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (277 chars)
+2026-04-07 19:35:45,079 INFO gateway.platforms.base: [Telegram] Sending response (620 chars) to 1565773783
