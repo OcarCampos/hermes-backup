@@ -2792,3 +2792,52 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-07 19:34:13,052 INFO gateway.platforms.base: [Telegram] Sending response (326 chars) to 1565773783
 2026-04-07 19:35:32,577 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (277 chars)
 2026-04-07 19:35:45,079 INFO gateway.platforms.base: [Telegram] Sending response (620 chars) to 1565773783
+2026-04-08 04:04:48,265 INFO gateway.run: Session 20260407_085827_4be97d34 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-08 04:09:48,706 INFO gateway.run: Session 20260407_085827_4be97d34 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-08 04:14:49,145 INFO gateway.run: Session 20260407_085827_4be97d34 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-08 04:14:49,145 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260407_085827_4be97d34: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-08 09:13:06,428 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1194 chars)
+2026-04-08 09:13:34,431 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-08 09:13:34,434 INFO gateway.platforms.base: [Telegram] Sending response (710 chars) to 1565773783
+2026-04-08 10:00:08,609 INFO gateway.platforms.telegram: [Telegram] Cached user document at /home/ocarjohann/.hermes/cache/documents/doc_0583e0e692f3_BIM.txt
+2026-04-08 10:00:53,541 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-08 10:00:53,542 INFO gateway.platforms.base: [Telegram] Sending response (1136 chars) to 1565773783
+2026-04-08 14:27:47,420 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1424 chars)
+2026-04-08 14:29:34,301 INFO gateway.platforms.base: [Telegram] Sending response (553 chars) to 1565773783
+2026-04-08 14:36:10,952 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (49 chars)
+2026-04-08 14:36:35,846 INFO gateway.platforms.base: [Telegram] Sending response (299 chars) to 1565773783
+2026-04-08 14:36:38,560 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-08 14:38:04,021 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1735 chars)
+2026-04-08 14:38:18,449 INFO gateway.platforms.base: [Telegram] Sending response (2127 chars) to 1565773783
+2026-04-08 15:14:59,217 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (4047 chars)
+2026-04-08 15:15:15,530 INFO gateway.platforms.base: [Telegram] Sending response (1616 chars) to 1565773783
+2026-04-08 15:21:41,347 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1535 chars)
+2026-04-08 15:21:52,230 INFO gateway.platforms.base: [Telegram] Sending response (1679 chars) to 1565773783
+2026-04-08 15:25:41,270 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (379 chars)
+2026-04-08 15:25:58,634 INFO gateway.platforms.base: [Telegram] Sending response (1772 chars) to 1565773783
+2026-04-08 16:50:36,844 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1930 chars)
+2026-04-08 16:50:52,441 INFO gateway.platforms.base: [Telegram] Sending response (2606 chars) to 1565773783
+2026-04-08 17:02:16,257 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-08 18:39:38,220 INFO gateway.platforms.telegram: [Telegram] Cached user document at /home/ocarjohann/.hermes/cache/documents/doc_b8c17277cf3f_BIM2.txt
+2026-04-08 18:39:55,146 INFO gateway.platforms.base: [Telegram] Sending response (2090 chars) to 1565773783
+2026-04-08 19:02:02,742 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (418 chars)
+2026-04-08 19:04:06,570 INFO gateway.platforms.base: [Telegram] Sending response (1218 chars) to 1565773783
+2026-04-08 19:04:09,738 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
