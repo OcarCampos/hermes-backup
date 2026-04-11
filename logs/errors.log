@@ -1487,3 +1487,115 @@ sqlite3.DatabaseError: database disk image is malformed
 <hr><center>nginx</center>
 </body>
 </html>
+2026-04-10 04:14:01,332 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260409_082947_e1d49194: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-10 08:43:02,131 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-10 10:10:57,378 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-10 10:13:28,361 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 11:49:34,719 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 12:01:00,124 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 12:01:02,997 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 14:29:39,148 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 14:36:37,459 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 16:32:17,790 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 16:34:19,952 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 17:00:35,729 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-10 17:02:00,586 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 17:02:12,671 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 22:15:22,216 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 22:31:57,965 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

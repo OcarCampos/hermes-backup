@@ -2922,3 +2922,181 @@ sqlite3.DatabaseError: database disk image is malformed
 <hr><center>nginx</center>
 </body>
 </html>
+2026-04-10 04:04:00,458 INFO gateway.run: Session 20260409_082947_e1d49194 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-10 04:09:00,900 INFO gateway.run: Session 20260409_082947_e1d49194 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-10 04:14:01,331 INFO gateway.run: Session 20260409_082947_e1d49194 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-10 04:14:01,332 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260409_082947_e1d49194: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-10 08:31:44,528 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (585 chars)
+2026-04-10 08:32:06,086 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-10 08:32:06,089 INFO gateway.platforms.base: [Telegram] Sending response (418 chars) to 1565773783
+2026-04-10 08:42:55,358 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (118 chars)
+2026-04-10 08:43:02,131 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-10 08:43:19,569 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-10 08:43:19,572 INFO gateway.platforms.base: [Telegram] Sending response (1575 chars) to 1565773783
+2026-04-10 08:47:49,751 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (63 chars)
+2026-04-10 08:48:00,444 INFO gateway.platforms.base: [Telegram] Sending response (421 chars) to 1565773783
+2026-04-10 10:06:09,762 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (851 chars)
+2026-04-10 10:07:47,793 INFO gateway.platforms.base: [Telegram] Sending response (1181 chars) to 1565773783
+2026-04-10 10:09:41,731 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (294 chars)
+2026-04-10 10:09:51,910 INFO gateway.platforms.base: [Telegram] Sending response (474 chars) to 1565773783
+2026-04-10 10:10:49,752 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (196 chars)
+2026-04-10 10:10:57,378 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-10 10:13:24,600 INFO gateway.platforms.base: [Telegram] Sending response (421 chars) to 1565773783
+2026-04-10 10:13:28,361 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 11:43:08,182 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (332 chars)
+2026-04-10 11:45:32,399 INFO gateway.platforms.base: [Telegram] Sending response (610 chars) to 1565773783
+2026-04-10 11:46:44,764 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (91 chars)
+2026-04-10 11:47:10,192 INFO gateway.platforms.base: [Telegram] Sending response (447 chars) to 1565773783
+2026-04-10 11:48:34,326 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (244 chars)
+2026-04-10 11:49:31,801 INFO gateway.platforms.base: [Telegram] Sending response (484 chars) to 1565773783
+2026-04-10 11:49:34,719 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 11:59:24,163 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (243 chars)
+2026-04-10 11:59:35,159 INFO gateway.platforms.base: [Telegram] Sending response (255 chars) to 1565773783
+2026-04-10 12:00:20,079 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (141 chars)
+2026-04-10 12:00:57,696 INFO gateway.platforms.base: [Telegram] Sending response (148 chars) to 1565773783
+2026-04-10 12:00:57,756 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7) at https://api.minimax.io/anthropic/
+2026-04-10 12:00:59,943 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-10 12:01:00,124 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 12:01:02,997 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 13:22:25,309 INFO gateway.run: Document cache cleanup: removed 1 stale file(s)
+2026-04-10 14:29:35,348 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (324 chars)
+2026-04-10 14:29:35,917 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7) at https://api.minimax.io/anthropic/
+2026-04-10 14:29:38,966 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-10 14:29:39,148 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 14:30:25,835 INFO gateway.run: Session split detected: 20260410_083144_f5f885f5 → 20260410_142939_60567b (compression)
+2026-04-10 14:30:25,851 INFO gateway.platforms.base: [Telegram] Sending response (238 chars) to 1565773783
+2026-04-10 14:30:58,905 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (56 chars)
+2026-04-10 14:31:09,758 INFO gateway.platforms.base: [Telegram] Sending response (51 chars) to 1565773783
+2026-04-10 14:36:15,326 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (297 chars)
+2026-04-10 14:36:33,895 INFO gateway.platforms.base: [Telegram] Sending response (95 chars) to 1565773783
+2026-04-10 14:36:37,459 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 14:40:30,713 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (392 chars)
+2026-04-10 14:40:55,935 INFO gateway.platforms.base: [Telegram] Sending response (295 chars) to 1565773783
+2026-04-10 14:41:23,346 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (96 chars)
+2026-04-10 14:41:49,030 INFO gateway.platforms.base: [Telegram] Sending response (51 chars) to 1565773783
+2026-04-10 15:27:15,372 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (377 chars)
+2026-04-10 15:27:31,585 INFO gateway.platforms.base: [Telegram] Sending response (107 chars) to 1565773783
+2026-04-10 15:49:19,416 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (326 chars)
+2026-04-10 15:49:36,056 INFO gateway.platforms.base: [Telegram] Sending response (78 chars) to 1565773783
+2026-04-10 16:11:28,275 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (400 chars)
+2026-04-10 16:11:45,292 INFO gateway.platforms.base: [Telegram] Sending response (248 chars) to 1565773783
+2026-04-10 16:31:44,288 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1270 chars)
+2026-04-10 16:32:14,117 INFO gateway.platforms.base: [Telegram] Sending response (563 chars) to 1565773783
+2026-04-10 16:32:17,790 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 16:33:44,095 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (265 chars)
+2026-04-10 16:34:15,042 INFO gateway.platforms.base: [Telegram] Sending response (2923 chars) to 1565773783
+2026-04-10 16:34:19,952 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 16:58:39,250 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (3558 chars)
+2026-04-10 17:00:35,729 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 279, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1125, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+2026-04-10 17:02:00,586 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 17:02:08,394 INFO gateway.platforms.base: [Telegram] Sending response (738 chars) to 1565773783
+2026-04-10 17:02:12,671 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 17:02:49,931 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (196 chars)
+2026-04-10 17:03:53,041 INFO gateway.platforms.base: [Telegram] Sending response (663 chars) to 1565773783
+2026-04-10 21:55:02,503 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (982 chars)
+2026-04-10 21:55:48,315 INFO gateway.platforms.base: [Telegram] Sending response (648 chars) to 1565773783
+2026-04-10 22:15:19,438 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (379 chars)
+2026-04-10 22:15:19,534 INFO agent.auxiliary_client: Auxiliary flush_memories: using auto (MiniMax-M2.7) at https://api.minimax.io/anthropic/
+2026-04-10 22:15:22,014 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-10 22:15:22,216 WARNING root: Failed to generate context summary: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-10 22:15:55,912 INFO gateway.run: Session split detected: 20260410_142939_60567b → 20260410_221522_b9da1d (compression)
+2026-04-10 22:15:55,928 INFO gateway.platforms.base: [Telegram] Sending response (477 chars) to 1565773783
+2026-04-10 22:31:30,401 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (157 chars)
+2026-04-10 22:31:54,198 INFO gateway.platforms.base: [Telegram] Sending response (339 chars) to 1565773783
+2026-04-10 22:31:57,965 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
