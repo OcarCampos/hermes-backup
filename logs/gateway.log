@@ -3100,3 +3100,25 @@ sqlite3.DatabaseError: database disk image is malformed
 <hr><center>nginx</center>
 </body>
 </html>
+2026-04-11 04:01:06,066 INFO gateway.run: Session 20260410_221522_b9da1d expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-11 04:06:06,504 INFO gateway.run: Session 20260410_221522_b9da1d expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-11 04:11:06,943 INFO gateway.run: Session 20260410_221522_b9da1d expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-11 04:11:06,943 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260410_221522_b9da1d: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-11 10:59:54,355 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (320 chars)
+2026-04-11 11:00:15,675 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-11 11:00:15,677 INFO gateway.platforms.base: [Telegram] Sending response (269 chars) to 1565773783
+2026-04-11 11:15:26,413 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (528 chars)
+2026-04-11 11:16:06,080 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-11 11:16:06,081 INFO gateway.platforms.base: [Telegram] Sending response (407 chars) to 1565773783
+2026-04-11 19:25:22,224 INFO gateway.platforms.base: [Telegram] Sending response (111 chars) to 1565773783
+2026-04-11 19:27:30,142 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (459 chars)
+2026-04-11 19:28:04,554 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-11 19:28:04,557 INFO gateway.platforms.base: [Telegram] Sending response (650 chars) to 1565773783
+2026-04-11 19:28:41,727 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (110 chars)
+2026-04-11 19:28:52,142 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-11 19:28:52,144 INFO gateway.platforms.base: [Telegram] Sending response (135 chars) to 1565773783
+2026-04-11 19:29:29,027 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (23 chars)
+2026-04-11 19:29:37,320 INFO gateway.platforms.base: [Telegram] Sending response (92 chars) to 1565773783
+2026-04-12 02:00:43,992 ERROR tools.terminal_tool: Execution failed after 3 retries - Command: cd ~/.hermes && git add . && git commit -m "Auto-backup $(date '+%Y-%m-%d %H:%M')" && git push origin main - Error: FileNotFoundError: [Errno 2] No such file or directory: '~/.hermes' - Task: 4f33c4dd-f274-4463-810a-e152877c2240, Backend: local
+2026-04-12 02:01:18,359 ERROR tools.terminal_tool: Execution failed after 3 retries - Command: cd /root/.hermes && git add . && git commit -m "Auto-backup $(date '+%Y-%m-%d %H:%M')" && git push origin main - Error: PermissionError: [Errno 13] Permission denied: '/root/.hermes' - Task: 4f33c4dd-f274-4463-810a-e152877c2240, Backend: local
+2026-04-12 02:01:36,825 ERROR tools.terminal_tool: Execution failed after 3 retries - Command: cd /root/.hermes && git status 2>&1 | head -20 - Error: PermissionError: [Errno 13] Permission denied: '/root/.hermes' - Task: 4f33c4dd-f274-4463-810a-e152877c2240, Backend: local
