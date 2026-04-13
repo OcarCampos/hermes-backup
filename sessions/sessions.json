@@ -15,7 +15,7 @@
     "last_prompt_tokens": 16241,
     "estimated_cost_usd": 0.0,
     "cost_status": "unknown",
-    "memory_flushed": false,
+    "memory_flushed": true,
     "origin": {
       "platform": "telegram",
       "chat_id": "1565773783",
