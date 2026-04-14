@@ -3126,3 +3126,62 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-12 04:08:12,798 INFO gateway.run: Session 20260411_192521_229b1f5f expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
 2026-04-12 04:13:13,229 INFO gateway.run: Session 20260411_192521_229b1f5f expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
 2026-04-12 04:13:13,229 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260411_192521_229b1f5f: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-13 07:38:59,010 INFO gateway.platforms.base: [Telegram] Sending response (111 chars) to 1565773783
+2026-04-13 08:35:57,106 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (165 chars)
+2026-04-13 08:36:38,224 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-13 08:36:38,227 INFO gateway.platforms.base: [Telegram] Sending response (1768 chars) to 1565773783
+2026-04-13 08:39:36,346 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (205 chars)
+2026-04-13 08:40:11,615 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-13 08:40:11,618 INFO gateway.platforms.base: [Telegram] Sending response (814 chars) to 1565773783
+2026-04-13 08:42:04,523 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (252 chars)
+2026-04-13 08:42:21,619 INFO gateway.platforms.base: [Telegram] Sending response (725 chars) to 1565773783
+2026-04-13 10:17:45,601 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (229 chars)
+2026-04-13 10:17:59,895 INFO gateway.platforms.base: [Telegram] Sending response (336 chars) to 1565773783
+2026-04-13 10:32:50,548 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (501 chars)
+2026-04-13 10:35:31,044 INFO gateway.platforms.base: [Telegram] Sending response (478 chars) to 1565773783
+2026-04-13 10:35:34,405 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 11:52:46,290 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (263 chars)
+2026-04-13 11:53:45,306 INFO gateway.platforms.base: [Telegram] Sending response (556 chars) to 1565773783
+2026-04-13 13:28:48,187 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (289 chars)
+2026-04-13 13:29:16,177 INFO gateway.platforms.base: [Telegram] Sending response (251 chars) to 1565773783
+2026-04-13 13:29:27,818 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (95 chars)
+2026-04-13 13:29:38,030 INFO gateway.platforms.base: [Telegram] Sending response (71 chars) to 1565773783
+2026-04-13 17:05:11,398 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 17:19:19,387 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (559 chars)
+2026-04-13 17:19:33,443 INFO gateway.platforms.base: [Telegram] Sending response (363 chars) to 1565773783
+2026-04-13 17:19:36,907 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 19:47:45,186 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (140 chars)
+2026-04-13 19:47:56,383 INFO gateway.platforms.base: [Telegram] Sending response (94 chars) to 1565773783
+2026-04-13 19:47:59,846 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 19:50:40,604 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (243 chars)
+2026-04-13 19:50:49,559 INFO gateway.platforms.base: [Telegram] Sending response (140 chars) to 1565773783
+2026-04-13 19:50:56,881 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (81 chars)
+2026-04-13 19:51:05,090 INFO gateway.platforms.base: [Telegram] Sending response (57 chars) to 1565773783
+2026-04-13 19:51:38,776 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (88 chars)
+2026-04-13 19:51:49,500 INFO gateway.platforms.base: [Telegram] Sending response (111 chars) to 1565773783
+2026-04-13 19:53:45,227 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (80 chars)
+2026-04-13 19:53:55,424 INFO gateway.platforms.base: [Telegram] Sending response (62 chars) to 1565773783

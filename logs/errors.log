@@ -1604,3 +1604,31 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-12 02:01:18,359 ERROR tools.terminal_tool: Execution failed after 3 retries - Command: cd /root/.hermes && git add . && git commit -m "Auto-backup $(date '+%Y-%m-%d %H:%M')" && git push origin main - Error: PermissionError: [Errno 13] Permission denied: '/root/.hermes' - Task: 4f33c4dd-f274-4463-810a-e152877c2240, Backend: local
 2026-04-12 02:01:36,825 ERROR tools.terminal_tool: Execution failed after 3 retries - Command: cd /root/.hermes && git status 2>&1 | head -20 - Error: PermissionError: [Errno 13] Permission denied: '/root/.hermes' - Task: 4f33c4dd-f274-4463-810a-e152877c2240, Backend: local
 2026-04-12 04:13:13,229 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260411_192521_229b1f5f: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-13 10:35:34,405 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 17:05:11,398 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 17:19:36,907 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+2026-04-13 19:47:59,846 ERROR root: Non-retryable client error: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
