@@ -15,14 +15,24 @@ Manage torrents via qBittorrent's WebUI API (v4.1+). Runs at `http://localhost:8
 
 ## Setup
 
-Credentials stored in: `~/.clawdbot/credentials/qbittorrent/config.json`
+Credentials stored in: `/home/ocarjohann/bck/credentials/qbittorrent/config.json`
+(Alternative path sometimes referenced: `~/.clawdbot/credentials/qbittorrent/config.json`)
 
 ```json
 {
   "url": "http://localhost:8080",
-  "username": "admin",
+  "username": "ocarjohann",
   "password": "***"
 }
+```
+
+**Usage with non-default credential path — pass env vars directly:**
+```bash
+QBIT_URL=http://localhost:8080 \
+QBIT_USER=ocarjohann \
+QBIT_PASS=$(cat /home/ocarjohann/bck/credentials/qbittorrent/config.json | python3 -c "import sys,json; print(json.load(sys.stdin)['password'])") \
+~/.hermes/skills/devops/qbittorrent/scripts/qbit-api.sh add "magnet:..."
+```
 ```
 
 ## Quick Reference

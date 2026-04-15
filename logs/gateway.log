@@ -3185,3 +3185,23 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-13 19:51:49,500 INFO gateway.platforms.base: [Telegram] Sending response (111 chars) to 1565773783
 2026-04-13 19:53:45,227 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (80 chars)
 2026-04-13 19:53:55,424 INFO gateway.platforms.base: [Telegram] Sending response (62 chars) to 1565773783
+2026-04-14 04:02:23,918 INFO gateway.run: Session 20260413_073858_7bde01c9 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-14 04:07:24,359 INFO gateway.run: Session 20260413_073858_7bde01c9 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-14 04:12:24,807 INFO gateway.run: Session 20260413_073858_7bde01c9 expired (key=agent:main:telegram:dm:1565773783), flushing memories proactively
+2026-04-14 04:12:24,808 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260413_073858_7bde01c9: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-14 04:34:10,161 WARNING gateway.platforms.telegram: [Telegram] Telegram network error, scheduling reconnect: httpx.ReadError: 
+2026-04-14 04:34:10,161 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ReadError: 
+2026-04-14 04:34:16,410 INFO gateway.platforms.telegram: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-04-14 08:22:02,011 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (28 chars)
+2026-04-14 08:22:14,862 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-14 08:22:14,865 INFO gateway.platforms.base: [Telegram] Sending response (173 chars) to 1565773783
+2026-04-14 08:22:49,628 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (93 chars)
+2026-04-14 08:26:19,899 INFO agent.auxiliary_client: Auxiliary compression: using auto (google/gemini-3-flash-preview) at https://api.minimax.io/anthropic/
+2026-04-14 08:26:19,902 INFO gateway.platforms.base: [Telegram] Sending response (1341 chars) to 1565773783
+2026-04-14 08:41:52,422 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (784 chars)
+2026-04-14 08:44:40,190 INFO gateway.platforms.base: [Telegram] Sending response (283 chars) to 1565773783
+2026-04-14 09:29:14,359 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (452 chars)
+2026-04-14 09:31:24,325 INFO agent.auxiliary_client: Auxiliary vision: using custom (GLM-4.6V-Flash) at https://api.z.ai/api/paas/v4/
+2026-04-14 09:34:30,706 INFO gateway.platforms.base: [Telegram] Sending response (27 chars) to 1565773783
+2026-04-14 09:34:48,901 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1565773783 (1485 chars)
+2026-04-14 09:35:58,052 INFO gateway.platforms.base: [Telegram] Sending response (271 chars) to 1565773783

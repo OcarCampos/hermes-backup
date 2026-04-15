@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T01:57:09.384217",
+  "updated_at": "2026-04-15T01:59:10.796595",
   "platforms": {
     "telegram": [
       {
@@ -9,9 +9,21 @@
         "thread_id": null
       }
     ],
+    "discord": [],
     "whatsapp": [],
+    "slack": [],
     "signal": [],
+    "mattermost": [],
+    "matrix": [],
+    "homeassistant": [],
     "email": [],
-    "sms": []
+    "sms": [],
+    "dingtalk": [],
+    "feishu": [],
+    "wecom": [],
+    "wecom_callback": [],
+    "weixin": [],
+    "bluebubbles": [],
+    "qqbot": []
   }
 }

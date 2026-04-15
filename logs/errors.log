@@ -1632,3 +1632,8 @@ sqlite3.DatabaseError: database disk image is malformed
 <hr><center>nginx</center>
 </body>
 </html>
+2026-04-14 04:12:24,808 WARNING gateway.run: Proactive memory flush gave up after 3 attempts for 20260413_073858_7bde01c9: GatewayRunner._async_flush_memories() takes 2 positional arguments but 3 were given. Marking as flushed to prevent infinite retry loop.
+2026-04-14 04:34:10,161 WARNING gateway.platforms.telegram: [Telegram] Telegram network error, scheduling reconnect: httpx.ReadError: 
+2026-04-14 04:34:10,161 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ReadError: 
+2026-04-14 12:39:05,296 WARNING root: Binding to 0.0.0.0 — the web UI exposes config and API keys. Only bind to non-localhost if you trust all users on the network.
+2026-04-14 12:42:50,076 WARNING root: Binding to 0.0.0.0 — the web UI exposes config and API keys. Only bind to non-localhost if you trust all users on the network.

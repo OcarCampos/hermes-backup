@@ -26,8 +26,8 @@
       4101
     ],
     "autonomous-ai-agents/hermes-agent/SKILL.md": [
-      1775182620660691646,
-      25020
+      1776184370282690785,
+      28087
     ],
     "autonomous-ai-agents/opencode/SKILL.md": [
       1775235409432597711,
@@ -38,16 +38,24 @@
       10631
     ],
     "creative/ascii-video/SKILL.md": [
-      1775182620661323090,
-      12976
+      1776184370282690785,
+      14734
+    ],
+    "creative/creative-ideation/SKILL.md": [
+      1776184370282690785,
+      6270
     ],
     "creative/excalidraw/SKILL.md": [
       1775182620661597919,
       7252
     ],
     "creative/manim-video/SKILL.md": [
-      1775441889209427168,
-      9781
+      1776184370283690787,
+      11983
+    ],
+    "creative/p5js/SKILL.md": [
+      1776184370285346048,
+      27372
     ],
     "creative/popular-web-designs/SKILL.md": [
       1775441889209551138,
@@ -66,8 +74,8 @@
       4426
     ],
     "devops/qbittorrent/SKILL.md": [
-      1775235449566762331,
-      2511
+      1776184746976865420,
+      2981
     ],
     "devops/unraid/SKILL.md": [
       1775235449564809964,
@@ -78,8 +86,8 @@
       5704
     ],
     "dogfood/SKILL.md": [
-      1775182620663172302,
-      6359
+      1776184370286173470,
+      6294
     ],
     "email/himalaya/SKILL.md": [
       1775182620663657705,
@@ -258,8 +266,8 @@
       1748
     ],
     "productivity/google-workspace/SKILL.md": [
-      1775441889212999041,
-      8625
+      1776184370286173470,
+      7640
     ],
     "productivity/linear/SKILL.md": [
       1775182620679771490,
@@ -290,16 +298,20 @@
       10212
     ],
     "research/blogwatcher/SKILL.md": [
-      1775182620685139353,
-      1239
+      1776184370286690792,
+      5169
+    ],
+    "research/llm-wiki/SKILL.md": [
+      1776184370286690792,
+      17298
     ],
     "research/polymarket/SKILL.md": [
       1775182620685139353,
       3046
     ],
     "research/research-paper-writing/SKILL.md": [
-      1775182620685336168,
-      65431
+      1776184370286690792,
+      103549
     ],
     "smart-home/nordvpn/SKILL.md": [
       1775235409411750230,
@@ -594,6 +606,19 @@
       }
     },
     {
+      "skill_name": "creative-ideation",
+      "category": "creative",
+      "frontmatter_name": "ideation",
+      "description": "Generate project ideas through creative constraints. Use ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "excalidraw",
       "category": "creative",
       "frontmatter_name": "excalidraw",
@@ -611,6 +636,19 @@
       "category": "creative",
       "frontmatter_name": "manim-video",
       "description": "Production pipeline for mathematical and technical animat...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "p5js",
+      "category": "creative",
+      "frontmatter_name": "p5js",
+      "description": "Production pipeline for interactive and generative visual...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1404,6 +1442,19 @@
       "category": "research",
       "frontmatter_name": "blogwatcher",
       "description": "Monitor blogs and RSS/Atom feeds for updates using the bl...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "llm-wiki",
+      "category": "research",
+      "frontmatter_name": "llm-wiki",
+      "description": "Karpathy's LLM Wiki — build and maintain a persistent, in...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
