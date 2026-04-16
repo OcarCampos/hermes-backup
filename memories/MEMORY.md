@@ -11,3 +11,5 @@ Raindrop list: O'car (not Francisca) has the Raindrop.io list. The "francisca" f
 Google Workspace email access (ocarnork138@gmail.com) via `/usr/bin/python3 ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py` — can search gmail with `gmail search` and retrieve with `gmail get`. Useful for tracking: bank transfers (Santander, BCI, Banco Estado), card purchases (MercadoPago, Mach), order confirmations (mechatronicstore, afel), and general financial reconciliation. Token at ~/.hermes/google_token.json.
 §
 Hermes dashboard: started as background process at PID 247548 on Apr 14. Runs on 127.0.0.1:9119.
+§
+Session search DB corrupted: "database disk image is malformed" error on session_search. ~/.hermes/sessions.db needs repair or rebuild. Affects ability to recall past conversations.

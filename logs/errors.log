@@ -1637,3 +1637,13 @@ sqlite3.DatabaseError: database disk image is malformed
 2026-04-14 04:34:10,161 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ReadError: 
 2026-04-14 12:39:05,296 WARNING root: Binding to 0.0.0.0 — the web UI exposes config and API keys. Only bind to non-localhost if you trust all users on the network.
 2026-04-14 12:42:50,076 WARNING root: Binding to 0.0.0.0 — the web UI exposes config and API keys. Only bind to non-localhost if you trust all users on the network.
+2026-04-15 04:01:28,349 ERROR [20260414_082202_00faf111] root: API call failed after 3 retries. HTTP 529: The server cluster is currently under high load. Please retry after a short wait and thank you for your patience. (2064) (529) | provider=minimax model=MiniMax-M2.7 msgs=36 tokens=~11,518
+2026-04-15 17:47:26,488 ERROR [20260415_141424_b04f959a] root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 329, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1062, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
