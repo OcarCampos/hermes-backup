@@ -1647,3 +1647,12 @@ Traceback (most recent call last):
     cursor = self._conn.execute(sql, params)
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 sqlite3.DatabaseError: database disk image is malformed
+2026-04-16 17:00:55,360 ERROR root: Session search failed: database disk image is malformed
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/tools/session_search_tool.py", line 329, in session_search
+    raw_results = db.search_messages(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/hermes_state.py", line 1062, in search_messages
+    cursor = self._conn.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed

@@ -93,6 +93,10 @@
       1775182620663657705,
       6003
     ],
+    "eod-checkin-cron/SKILL.md": [
+      1776373463848566677,
+      1870
+    ],
     "gaming/minecraft-modpack-server/SKILL.md": [
       1775182620663976884,
       6662
@@ -766,6 +770,19 @@
       "category": "email",
       "frontmatter_name": "himalaya",
       "description": "CLI to manage emails via IMAP/SMTP. Use himalaya to list,...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "eod-checkin-cron",
+      "category": "eod-checkin-cron",
+      "frontmatter_name": "eod-checkin-cron",
+      "description": "Send end-of-day check-in nudges to O'car via Telegram usi...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
