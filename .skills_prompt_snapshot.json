@@ -269,6 +269,10 @@
       1775235409417543642,
       1748
     ],
+    "productivity/dgac-drone-exam/SKILL.md": [
+      1776412977921847601,
+      757
+    ],
     "productivity/google-workspace/SKILL.md": [
       1776184370286173470,
       7640
@@ -1342,6 +1346,19 @@
       "category": "note-taking",
       "frontmatter_name": "qmd",
       "description": "Query Markdown Database - Fast full-text, vector similari...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "dgac-drone-exam",
+      "category": "productivity",
+      "frontmatter_name": "dgac-drone-exam",
+      "description": "DGAC drone exam coordination workflow — tracking dates, c...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
