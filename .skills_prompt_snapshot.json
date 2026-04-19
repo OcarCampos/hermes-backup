@@ -30,8 +30,8 @@
       28087
     ],
     "autonomous-ai-agents/opencode/SKILL.md": [
-      1775235409432597711,
-      1909
+      1776550740788858567,
+      2445
     ],
     "creative/ascii-art/SKILL.md": [
       1775182620661107277,
@@ -128,6 +128,10 @@
     "github/github-repo-management/SKILL.md": [
       1775182620665186831,
       13776
+    ],
+    "hardware/i2c-sensor-debug/SKILL.md": [
+      1776556322840978129,
+      5793
     ],
     "leisure/find-nearby/SKILL.md": [
       1775182620666206527,
@@ -332,6 +336,10 @@
     "social-media/xitter/SKILL.md": [
       1775182620691138938,
       6140
+    ],
+    "software-development/bimbao-development/SKILL.md": [
+      1776549430550241570,
+      2041
     ],
     "software-development/code-review/SKILL.md": [
       1775182620691284140,
@@ -891,6 +899,19 @@
       "category": "github",
       "frontmatter_name": "github-repo-management",
       "description": "Clone, create, fork, configure, and manage GitHub reposit...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "i2c-sensor-debug",
+      "category": "hardware",
+      "frontmatter_name": "i2c-sensor-debug",
+      "description": "Reverse-engineer I2C sensor data formats by dumping raw b...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1564,6 +1585,19 @@
         "linux",
         "macos"
       ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "bimbao-development",
+      "category": "software-development",
+      "frontmatter_name": "bimbao-development",
+      "description": "Bimbao BIM CRUD web app — frontend/backend integration wo...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],

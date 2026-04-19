@@ -29,12 +29,21 @@ OpenCode is an AI coding agent with a terminal interface for development tasks.
 
 ## Agent Automation (Non-Interactive)
 
-- **Required**: Use `opencode run` with `--auto-accept` for automated workflows.
-- Refactoring: `opencode run "Refactor user.ts" --auto-accept --dir /path/to/project`
-- Architecture: `opencode run "Plan DB schema" --auto-accept --dir /path/to/project`
+- **Required**: Use `opencode run` with `--dangerously-skip-permissions` for fully automated workflows.
+- Refactoring: `opencode run "Refactor user.ts" --dangerously-skip-permissions --dir /path/to/project`
+- Architecture: `opencode run "Plan DB schema" --dangerously-skip-permissions --dir /path/to/project`
+- **Working automation command** (tested Apr 2026):
+  ```sh
+  opencode run "Your task description" \
+    --dangerously-skip-permissions \
+    --dir /absolute/path/to/project \
+    --model zai-coding-plan/glm-4.7
+  ```
 - **Flags**:
-  - `--auto-accept`: Bypass "Do you want to proceed?" prompts.
-  - `--dir`: Specify absolute path to project directory.
+  - `--dangerously-skip-permissions`: Required for non-interactive/automated mode. Without this, `opencode run` exits with help text.
+  - `--model`: Select provider/model (long form, not `-m`).
+  - `--dir`: Absolute path to project directory.
+  - `--auto-accept`: Do NOT rely on this — it does not work as documented for automation; use `--dangerously-skip-permissions` instead.
 
 ## Management
 
