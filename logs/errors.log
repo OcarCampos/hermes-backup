@@ -6407,3 +6407,1192 @@ Traceback (most recent call last):
 telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
 2026-04-23 17:08:22,325 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
 2026-04-23 17:08:22,325 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 6/10), reconnecting in 60s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:45:19,976 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:45:29,978 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:45:39,982 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:45:49,984 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:45:59,986 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:46:09,989 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:46:19,992 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:46:29,994 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:46:39,996 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:46:49,999 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:47:00,001 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:47:10,003 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:47:20,006 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:47:30,010 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:47:40,012 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:47:50,015 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:48:00,018 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:48:10,021 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:48:20,024 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:48:30,028 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:48:40,031 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:48:50,034 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:49:00,038 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:49:10,041 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:49:20,045 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:49:30,048 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:49:40,052 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:49:50,055 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:50:00,058 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:50:10,061 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:50:20,065 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:50:30,068 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:50:40,072 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:50:50,074 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:51:00,077 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:51:10,081 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:51:20,084 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:51:30,087 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:51:40,090 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:51:50,093 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:52:00,096 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:52:10,100 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:52:20,103 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:52:30,106 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:52:40,109 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:52:50,111 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:53:00,114 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:53:10,116 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:53:20,119 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:53:30,122 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:53:40,125 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:53:50,127 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:54:00,131 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:54:10,133 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:54:20,136 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:54:30,139 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:54:40,141 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:54:50,144 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:55:00,146 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:55:10,149 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:55:20,152 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:55:30,155 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:55:40,157 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:55:50,160 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-24 13:56:00,163 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:05,302 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:56:05,302 WARNING gateway.platforms.telegram: [Telegram] Telegram network error, scheduling reconnect: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:05,303 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:06,307 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:08,374 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:56:09,877 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:10,307 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:12,982 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:56:12,982 ERROR telegram.ext.Updater: Error while calling `get_updates` one more time to mark all fetched updates. Suppressing error to ensure graceful shutdown. When polling for updates is restarted, updates may be fetched again. Please adjust timeouts via `ApplicationBuilder` or the parameter `get_updates_request` of `Bot`.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 400, in _get_updates_cleanup
+    await self.bot.get_updates(
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:12,989 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:16,054 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:56:16,054 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:16,060 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:16,060 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:26,063 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:26,064 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:56:26,064 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:26,070 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:26,070 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:46,074 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:56:46,075 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:56:46,075 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:46,080 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:56:46,080 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:57:26,083 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:57:26,084 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:57:26,084 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:57:26,090 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:57:26,090 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:58:26,093 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 13:58:26,094 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 13:58:26,094 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:58:26,100 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 13:58:26,100 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 6/10), reconnecting in 60s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:04,313 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:04,314 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:04,314 WARNING gateway.platforms.telegram: [Telegram] Telegram network error, scheduling reconnect: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:04,315 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:05,319 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:05,319 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:06,822 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:06,823 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:09,077 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:09,078 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:12,457 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:12,457 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:12,458 ERROR telegram.ext.Updater: Error while calling `get_updates` one more time to mark all fetched updates. Suppressing error to ensure graceful shutdown. When polling for updates is restarted, updates may be fetched again. Please adjust timeouts via `ApplicationBuilder` or the parameter `get_updates_request` of `Bot`.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 400, in _get_updates_cleanup
+    await self.bot.get_updates(
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:12,464 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:12,465 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:12,465 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:12,470 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:12,471 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:22,475 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:22,476 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:22,476 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:22,481 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:22,482 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:42,485 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:25:42,486 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:25:42,486 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:42,492 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:25:42,492 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:26:22,496 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-04-24 17:26:22,497 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-04-24 17:26:22,497 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 114, in handle_async_request
+    raise last_error
+  File "/home/ocarjohann/.hermes/hermes-agent/gateway/platforms/telegram_network.py", line 88, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/ocarjohann/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1490, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5037, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:26:22,503 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-04-24 17:26:22,503 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: httpx.ConnectError: All connection attempts failed
