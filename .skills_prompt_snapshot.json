@@ -77,6 +77,14 @@
       1776184746976865420,
       2981
     ],
+    "devops/session-recovery/SKILL.md": [
+      1777313604828055756,
+      2236
+    ],
+    "devops/sqlite-session-db-repair/SKILL.md": [
+      1777314043792252120,
+      4920
+    ],
     "devops/unraid/SKILL.md": [
       1775235449564809964,
       2740
@@ -336,6 +344,10 @@
     "smart-home/openhue/SKILL.md": [
       1775182620690972364,
       2770
+    ],
+    "smart-home/thingspeak-channel-query/SKILL.md": [
+      1777333980280811061,
+      2296
     ],
     "social-media/xitter/SKILL.md": [
       1775182620691138938,
@@ -734,6 +746,32 @@
       "category": "devops",
       "frontmatter_name": "qbittorrent",
       "description": "Manage torrents with qBittorrent via WebUI API. Use when ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "session-recovery",
+      "category": "devops",
+      "frontmatter_name": "session-recovery",
+      "description": "Recover conversation history from ~/.hermes/sessions/ whe...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "sqlite-session-db-repair",
+      "category": "devops",
+      "frontmatter_name": "sqlite-session-db-repair",
+      "description": "Diagnose and repair corrupted Hermes state.db (SQLite ses...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1585,6 +1623,19 @@
       "category": "smart-home",
       "frontmatter_name": "openhue",
       "description": "Control Philips Hue lights, rooms, and scenes via the Ope...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "thingspeak-channel-query",
+      "category": "smart-home",
+      "frontmatter_name": "thingspeak-channel-query",
+      "description": "Query ThingSpeak channels with correct field label discov...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

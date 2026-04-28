@@ -12,4 +12,4 @@ Google Workspace email access (ocarnork138@gmail.com) via `/usr/bin/python3 ~/.h
 §
 Hermes dashboard: started as background process at PID 247548 on Apr 14. Runs on 127.0.0.1:9119.
 §
-Session search DB corrupted: "database disk image is malformed" error on session_search. ~/.hermes/sessions.db needs repair or rebuild. Affects ability to recall past conversations.
+Session search DB repaired (Apr 27): state.db corrupted (SQLITE_CORRUPT 11). FTS/messages partially damaged. Rebuilt clean. Backup: state.db.corrupted.backup. Skill: sqlite-session-db-repair.
