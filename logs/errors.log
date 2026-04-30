@@ -9120,3 +9120,22 @@ Traceback (most recent call last):
 telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
 2026-04-29 08:34:45,632 WARNING gateway.run: ✗ telegram failed to connect
 2026-04-29 08:34:45,632 ERROR gateway.run: Gateway failed to connect any configured messaging platform: telegram: Telegram startup failed: httpx.ConnectError: All connection attempts failed
+2026-04-29 11:06:42,092 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 11:06:59,767 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 11:07:09,770 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 11:07:19,772 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 11:07:29,775 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 11:07:39,778 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 11:08:27,974 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 11:08:37,976 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 11:08:47,978 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 11:08:57,981 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 11:09:07,984 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 11:09:17,986 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 12:17:08,270 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 12:17:18,273 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 12:17:28,276 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-04-29 12:17:43,140 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.167.220
+2026-04-29 19:03:25,895 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 19:03:35,898 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-04-29 19:03:45,901 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 

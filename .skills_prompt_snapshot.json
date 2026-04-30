@@ -285,6 +285,10 @@
       1776412977921847601,
       757
     ],
+    "productivity/gmail-access-silo/SKILL.md": [
+      1777486528787056508,
+      1501
+    ],
     "productivity/google-workspace/SKILL.md": [
       1776184370286173470,
       7640
@@ -1422,6 +1426,19 @@
       "category": "productivity",
       "frontmatter_name": "dgac-drone-exam",
       "description": "DGAC drone exam coordination workflow — tracking dates, c...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "gmail-access-silo",
+      "category": "productivity",
+      "frontmatter_name": "gmail-access-silo",
+      "description": "Access O'car's Gmail (ocarnork138@gmail.com) from the Sil...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

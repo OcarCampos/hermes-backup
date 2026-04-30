@@ -1,1 +1,20 @@
-{"token": "ya29.a0Aa7MYiq4Bg1VRlrwjSC95RnFCfrmovMzlagFOzYt6zOwbvJh-1oqVlS3rxCBCxETP84nvBlKrEKpOBzY-hXpWBqsXjHbZjemL-EmrsDN-Q681p3akTar0c4WROkpjvQQK5ahCbNpQtDtBwN82KlfzprspZw1mavFz084I2jrE8BkMxWihivaWFWS47G373WdT_yVoUF-aCgYKATwSARESFQHGX2Mip-o7HTthIhSLXLv5a6b9-A0207", "refresh_token": "1//0h8ki5zgoL4NCCgYIARAAGBESNgF-L9IrpqaQyLC4_Mo621ZR8Crg0jXew7Nt-t2gce5Up7Xxt5pO-6GPEH7RaX11kOTmf75Hdw", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "683401472810-l1rfq81egumoiut085isj5dmpceo0o4l.apps.googleusercontent.com", "client_secret": "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", "scopes": ["https://www.googleapis.com/auth/gmail.readonly", "https://www.googleapis.com/auth/gmail.send", "https://www.googleapis.com/auth/gmail.modify", "https://www.googleapis.com/auth/calendar", "https://www.googleapis.com/auth/drive.readonly", "https://www.googleapis.com/auth/contacts.readonly", "https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/documents.readonly"], "universe_domain": "googleapis.com", "account": "", "expiry": "2026-04-14T00:51:45.518494Z"}
+{
+  "token": "ya29.a0AQvPyIMbw43eyetKbOWTSNiI8SfAxbIQhGtgkuyG4_EtJooEbDDvgBbo73O3YA1obw1OU8L3_ZnmLpYQ3K36a_hPPDJwMmfb9ICyj9LjoQM1pjleKgKnN1RYKHsrHC392g4poOzDqSFyxNCDGNrpOWc1lPfbeM9XP1PcPS82dUJeeEjimr5-7eVSThLjLOaj83ejddqbaCgYKAQ0SARESFQHGX2MigvZlA2wcek2Dtl3MHiDf6g0207",
+  "refresh_token": "1//0h8ki5zgoL4NCCgYIARAAGBESNgF-L9IrpqaQyLC4_Mo621ZR8Crg0jXew7Nt-t2gce5Up7Xxt5pO-6GPEH7RaX11kOTmf75Hdw",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "client_id": "683401472810-l1rfq81egumoiut085isj5dmpceo0o4l.apps.googleusercontent.com",
+  "client_secret": "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",
+  "scopes": [
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.send",
+    "https://www.googleapis.com/auth/gmail.modify",
+    "https://www.googleapis.com/auth/calendar",
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/contacts.readonly",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/documents.readonly"
+  ],
+  "universe_domain": "googleapis.com",
+  "account": "",
+  "expiry": "2026-04-29T14:33:45.412618+00:00"
+}
