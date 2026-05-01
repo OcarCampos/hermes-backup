@@ -66,7 +66,37 @@ curl -s "https://api.thingspeak.com/channels/<CHANNEL_ID>/feeds.json?results=<N>
 - **SmartPlant v2 uses calibrated percentage for soil moisture** (field4), not a raw ADC value.
 - **Timestamps** are UTC in `created_at`. Convert to Chile local time (UTC-4) for context.
 
+## Garden File Paths
+
+Always use absolute paths when referencing garden files:
+
+- Lemon Haze log: `/mnt/data/Developing/hermes-workspace/garden/lemon-haze.md`
+- Vegetable Tent log: `/mnt/data/Developing/hermes-workspace/garden/vegetable-tent.md`
+- Garden folder readme: `/mnt/data/Developing/hermes-workspace/garden/readme.md`
+- SmartPlant v2: `/mnt/data/Developing/hermes-workspace/3dprinting/smartplant-v2.md`
+
+## Cronjob Debugging & Fixing Workflow
+
+When a cronjob fails to find files or produces wrong output:
+
+1. **Cron prompts are stored in two places (always check both):**
+   - `~/.hermes/cron/jobs.json` — truncated prompt (may be cut off)
+   - `~/.hermes/sessions/session_cron_<JOB_ID>_<TIMESTAMP>.json` — full prompt with tool calls and tool results
+
+2. **Find the right session:** Look for `session_cron_<job_id>_*` files sorted by timestamp. The most recent run has the full prompt that was actually executed.
+
+3. **Key session file locations:**
+   - Cron session logs: `~/.hermes/sessions/session_cron_<JOB_ID>_<TIMESTAMP>.json`
+   - Cron output logs: `~/.hermes/cron/output/<JOB_ID>/<DATE>.md`
+   - Cron job definitions: `~/.hermes/cron/jobs.json`
+
+4. **Common cronjob file-finding failure:** Cronjobs that use bare filenames (`lemon-haze.md`) will fail when `OBSIDIAN_VAULT_PATH` is unset, because the agent looks in skill directories and home directory. Always use full absolute paths in cron prompts.
+
+5. **Day counting off-by-one:** When creating cron prompts that compute day numbers (e.g., "Day N since sow date"), remember the formula is `(today - start_date + 1)`. Verify with concrete dates before finalizing the prompt.
+
 ## Relevant Files
 
 - SmartPlant v2: `/mnt/data/Developing/hermes-workspace/3dprinting/smartplant-v2.md`
 - Garden folder: `/mnt/data/Developing/hermes-workspace/garden/`
+- Lemon Haze: `/mnt/data/Developing/hermes-workspace/garden/lemon-haze.md`
+- Vegetable Tent: `/mnt/data/Developing/hermes-workspace/garden/vegetable-tent.md`

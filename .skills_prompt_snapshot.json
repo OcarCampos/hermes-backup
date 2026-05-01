@@ -141,6 +141,10 @@
       1776556322840978129,
       5793
     ],
+    "hermes/hermes-sandbox-workflow/SKILL.md": [
+      1777563806555189652,
+      2653
+    ],
     "leisure/find-nearby/SKILL.md": [
       1775182620666206527,
       3088
@@ -297,6 +301,10 @@
       1775182620679771490,
       11324
     ],
+    "productivity/monthly-budget-review/SKILL.md": [
+      1777565157519330373,
+      3381
+    ],
     "productivity/nano-pdf/SKILL.md": [
       1775182620679771490,
       1494
@@ -350,8 +358,8 @@
       2770
     ],
     "smart-home/thingspeak-channel-query/SKILL.md": [
-      1777333980280811061,
-      2296
+      1777554542752196792,
+      4104
     ],
     "social-media/xitter/SKILL.md": [
       1775182620691138938,
@@ -967,6 +975,19 @@
       }
     },
     {
+      "skill_name": "hermes-sandbox-workflow",
+      "category": "hermes",
+      "frontmatter_name": "hermes-sandbox-workflow",
+      "description": "Write Python scripts to disk then execute with terminal —...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "find-nearby",
       "category": "leisure",
       "frontmatter_name": "find-nearby",
@@ -1465,6 +1486,19 @@
       "category": "productivity",
       "frontmatter_name": "linear",
       "description": "Manage Linear issues, projects, and teams via the GraphQL...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "monthly-budget-review",
+      "category": "productivity",
+      "frontmatter_name": "monthly-budget-review",
+      "description": "Monthly budget vs actual comparison — handles mismatched ...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

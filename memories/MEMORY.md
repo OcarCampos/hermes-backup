@@ -4,7 +4,7 @@ Working style: single DM on Telegram for all contexts. No topic/thread separatio
 §
 Camera installation: Tue Apr 14 AM — Family calendar event created.
 §
-Samba fix (Apr 2026): `force group = +ocarjohann` caused `canonicalize_connect_path failed` on hermes-workspace share. Also `/mnt/data` SELinux context was `unlabeled_t` — fixed with `semanage fcontext` + `restorecon`. Root cause: `+` prefix in `force group` triggers group lookup during path canonicalization pre-auth.
+Budget philosophy: budgets are intentionally inflated across categories to create flexibility margins. Actual spending is typically well under budget (April operational was $474k under). TGR-type surprises are handled by squeezing inflated categories rather than emergency cuts. Cushion = Fintual reserves, not operational budget. "Living paycheck to paycheck is fine" — priority is Fintual savings retention over operational cash buffer.
 §
 Raindrop list: O'car (not Francisca) has the Raindrop.io list. The "francisca" folder in workspace was a mistake — O'car moved fidget-models.md to /mnt/data/Developing/hermes-workspace/3dprinting/clinical/.
 §
