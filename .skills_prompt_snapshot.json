@@ -149,6 +149,10 @@
       1775182620666206527,
       3088
     ],
+    "leisure/seedling-hardening-off/SKILL.md": [
+      1777739242570428973,
+      2658
+    ],
     "leisure/weather/SKILL.md": [
       1775235410045799340,
       1569
@@ -289,6 +293,10 @@
       1776412977921847601,
       757
     ],
+    "productivity/finance-categorization/SKILL.md": [
+      1777734261864646521,
+      4998
+    ],
     "productivity/gmail-access-silo/SKILL.md": [
       1777486528787056508,
       1501
@@ -302,8 +310,8 @@
       11324
     ],
     "productivity/monthly-budget-review/SKILL.md": [
-      1777565157519330373,
-      3381
+      1777732897349360163,
+      5709
     ],
     "productivity/nano-pdf/SKILL.md": [
       1775182620679771490,
@@ -1001,6 +1009,19 @@
       }
     },
     {
+      "skill_name": "seedling-hardening-off",
+      "category": "leisure",
+      "frontmatter_name": "seedling-hardening-off",
+      "description": "Gradual 7-day outdoor transition protocol for tent seedli...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
       "skill_name": "weather",
       "category": "leisure",
       "frontmatter_name": "weather",
@@ -1447,6 +1468,19 @@
       "category": "productivity",
       "frontmatter_name": "dgac-drone-exam",
       "description": "DGAC drone exam coordination workflow — tracking dates, c...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "finance-categorization",
+      "category": "productivity",
+      "frontmatter_name": "finance-categorization",
+      "description": "O'car's personal finance categorization rules — which fil...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
