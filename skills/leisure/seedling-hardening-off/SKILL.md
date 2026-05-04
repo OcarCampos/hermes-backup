@@ -56,10 +56,21 @@ Use `curl -s "https://wttr.in/Conc%C3%B3n,Chile?format=j1"` for current forecast
 
 ---
 
+## "The Hell" — Potential Winter Growing Location
+
+Polycarbonate-covered patio at O'car's. Summer 38–39°C (useless). Winter conditions:
+- Nights: 12–15°C | Days: 20–25°C on sunny days
+- Light: Natural diffuse via polycarbonate (excellent for leafy greens)
+- Humidity: Ambient coastal ~50–65%
+- Ventilation: Passive via ~90×60cm window
+
+**Why it matters for hardening off**: Acts as a middle ground between the sealed tent and full outdoor exposure. After completing the 7-day outdoor hardening protocol, permanent placement in the Hell could work for winter growing — warmer and more humid than bare outdoor, protected from wind. Characterize with SmartPlant v2 before committing to permanent planting.
+
 ## File Reference
 - `/mnt/data/Developing/hermes-workspace/garden/vegetable-tent.md` — active grow log
 - `/mnt/data/Developing/hermes-workspace/garden/readme.md` — general garden reference
 - `/mnt/data/Developing/hermes-workspace/3dprinting/smartplant-v2.md` — SmartPlant monitoring hardware
+- `~/.hermes/skills/hardware/smartplant-v2-hardware-status/` — SmartPlant hardware inventory and Hell deployment details
 
 ## ThingSpeak Live Data
 Channel 2785218, Field 1=Temp, Field 2=Humidity, Field 3=Lux, Field 4=Soil Moisture %

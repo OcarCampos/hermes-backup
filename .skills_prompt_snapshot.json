@@ -141,6 +141,10 @@
       1776556322840978129,
       5793
     ],
+    "hardware/smartplant-v2-hardware-status/SKILL.md": [
+      1777795520939834449,
+      2547
+    ],
     "hermes/hermes-sandbox-workflow/SKILL.md": [
       1777563806555189652,
       2653
@@ -150,8 +154,8 @@
       3088
     ],
     "leisure/seedling-hardening-off/SKILL.md": [
-      1777739242570428973,
-      2658
+      1777795565168117775,
+      3501
     ],
     "leisure/weather/SKILL.md": [
       1775235410045799340,
@@ -974,6 +978,19 @@
       "category": "hardware",
       "frontmatter_name": "i2c-sensor-debug",
       "description": "Reverse-engineer I2C sensor data formats by dumping raw b...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "smartplant-v2-hardware-status",
+      "category": "hardware",
+      "frontmatter_name": "smartplant-v2-hardware-status",
+      "description": "SmartPlant v2 hardware inventory, \"The Hell\" deployment c...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
