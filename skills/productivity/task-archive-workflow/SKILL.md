@@ -17,7 +17,7 @@ Task management system for the Nork138 workspace at `/mnt/data/Developing/hermes
 ## Sections in TASKS.md
 
 - `==TASKS==` — active, waiting, pending tasks (all tags)
-- `==DONE==` — completed tasks from the **current week only**
+- `==DONE==` — completed tasks from the **current week only**. Accumulates here as you go during the week — never empty during active work. Only cleared after the weekly report is generated.
 - `==ARCHIVE==` — staging marker only (empty after weekly report clears DONE)
 
 ## The Critical Rule
@@ -33,8 +33,14 @@ During the week: DONE stays in TASKS.md so it's visible and reportable at any ti
 ### Logging a done task
 Add entry to `==DONE==` in TASKS.md:
 ```
-DD-MM-YYYY;tag;completed;Title;Mon DD: Description of what was done.
+YYYY-MM-DD;tag;completed;Title — Description
 ```
+Example:
+```
+2026-05-15;work;completed;E-377 — GCP plaques field placement: Tunnel Entrance, Tunnel Exit, Cofferdam
+```
+
+**Important:** When a sub-task of an active item is completed (e.g. field work for E-377), the parent task stays active until the full deliverable is closed. Only mark the parent done when the entire task loop is complete.
 
 ### End of day
 1. Do NOT immediately archive — leave tasks in `==DONE==`
@@ -48,7 +54,7 @@ DD-MM-YYYY;tag;completed;Title;Mon DD: Description of what was done.
 ### The Archive Format
 Entries in `archive/YYYY-MM.md` use two dates:
 ```
-DD-MM-YYYY;DD-MM-YYYY;tag;status;Title;Description
+YYYY-MM-DD;YYYY-MM-DD;tag;status;Title — Description
 date_created;date_completed
 ```
 
@@ -75,4 +81,5 @@ date_created;date_completed
 ## Related
 - Finance expenses: `finance/YYYYMM-expenses.csv` — monthly expense tracking
 - Supermarket purchases: `supermarket/YYYYMM-history.csv` — shopping history
+- Budget tracking: `finance/budget/YYYYMM.csv` — monthly budget vs actuals
 - Both are aggregated from TASKS.md for budget reporting
