@@ -11088,3 +11088,5 @@ Traceback (most recent call last):
   File "/home/ocarjohann/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 296, in do_request
     raise TimedOut from err
 telegram.error.TimedOut: Timed out
+2026-05-08 14:17:21,371 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-05-08 14:17:32,225 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.167.220
