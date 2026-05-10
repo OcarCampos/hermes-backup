@@ -337,6 +337,10 @@
       1778054748103991059,
       3392
     ],
+    "productivity/weekly-report-workflow/SKILL.md": [
+      1778313845238396197,
+      1693
+    ],
     "red-teaming/godmode/SKILL.md": [
       1775182620684308091,
       20155
@@ -1615,6 +1619,19 @@
       "category": "productivity",
       "frontmatter_name": "task-archive-workflow",
       "description": "Task tracking workflow for the Nork138 workspace — TASKS....",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "weekly-report-workflow",
+      "category": "productivity",
+      "frontmatter_name": "weekly-report-workflow",
+      "description": "End-of-week report generation and task archival for O'car...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
