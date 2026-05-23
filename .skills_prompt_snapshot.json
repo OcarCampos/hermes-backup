@@ -153,6 +153,10 @@
       1775182620666206527,
       3088
     ],
+    "leisure/lemon-haze-grow-log/SKILL.md": [
+      1779434080494346007,
+      1393
+    ],
     "leisure/seedling-hardening-off/SKILL.md": [
       1777795565168117775,
       3501
@@ -1021,6 +1025,19 @@
       "category": "leisure",
       "frontmatter_name": "find-nearby",
       "description": "Find nearby places (restaurants, cafes, bars, pharmacies,...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "lemon-haze-grow-log",
+      "category": "leisure",
+      "frontmatter_name": "lemon-haze-grow-log",
+      "description": "Edit the Lemon Haze grow log safely — do NOT use execute_...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
