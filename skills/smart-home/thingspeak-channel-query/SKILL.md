@@ -38,15 +38,43 @@ if feeds:
 "
 ```
 
-## SmartPlant Channel (O'car's)
+## Channel Registry
 
-- **Channel ID:** 2785218
-- **URL:** https://thingspeak.mathworks.com/channels/2785218
-- **Known field labels (verify against API — do not hardcode):**
-  - Field 1 → Temperature (°C)
-  - Field 2 → Humidity (%)
-  - Field 3 → Lux (light)
-  - Field 4 → Soil Moisture (%)
+| Channel | ID | Purpose | Fields |
+|---------|-----|---------|--------|
+| SmartPlant (tent) | 2785218 | Vegetable tent monitoring | Temp, Hum, Lux, Soil Moisture |
+| Tenvironment (Hell) | 2781694 | Polycarbonate hell space monitoring | Temperature, Humidity, Light Level |
+
+**Tenvironment (Hell) channel:**
+- **Channel ID:** 2781694
+- **API Key (read):** SKWN0AM0TEWZQJ5H
+- **Fields:** field1=Temperature, field2=Humidity, field3=Light Level
+- **Live data:** https://thingspeak.mathworks.com/channels/2781698
+
+## Always Fetch Channel Metadata First
+
+ThingSpeak fields are NOT in a fixed order. Do NOT assume field1=temperature, field2=humidity, etc.
+**Always** fetch the channel metadata to get the actual field labels:
+
+```bash
+curl -s "https://api.thingspeak.com/channels/<CHANNEL_ID>/feeds.json?results=1" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+ch = d['channel']
+feeds = d['feeds']
+print('Channel:', ch['name'])
+print('Fields:')
+for f in ['field1','field2','field3','field4','field5','field6','field7','field8']:
+    if ch.get(f):
+        print(f'  {f}: {ch[f]}')
+if feeds:
+    print()
+    print('Latest feed:')
+    for f in ['field1','field2','field3','field4','field5','field6','field7','field8']:
+        if feeds[-1].get(f) is not None:
+            print(f'  {f} ({ch.get(f,\"\")}): {feeds[-1][f]}')
+"
+```
 
 ## Standard Query (Single Result)
 
@@ -59,6 +87,14 @@ curl -s "https://api.thingspeak.com/channels/<CHANNEL_ID>/feeds.json?results=1"
 ```bash
 curl -s "https://api.thingspeak.com/channels/<CHANNEL_ID>/feeds.json?results=<N>"
 ```
+
+## Query Date Range (historical data pull)
+
+Use `start=` to fetch data from a specific date onwards:
+```bash
+curl -s "https://api.thingspeak.com/channels/<CHANNEL_ID>/feeds.json?api_key=<KEY>&results=20000&start=2026-05-10%2000:00:00"
+```
+The `api_key` parameter is required for private channels. For public channels it's optional.
 
 ## Pitfalls
 
@@ -74,6 +110,22 @@ Always use absolute paths when referencing garden files:
 - Vegetable Tent log: `/mnt/data/Developing/hermes-workspace/garden/vegetable-tent.md`
 - Garden folder readme: `/mnt/data/Developing/hermes-workspace/garden/readme.md`
 - SmartPlant v2: `/mnt/data/Developing/hermes-workspace/3dprinting/smartplant-v2.md`
+- Hell (polycarbonate space) ThingSpeak data:
+  - `/mnt/data/Developing/hermes-workspace/garden/hell/temperature.csv`
+  - `/mnt/data/Developing/hermes-workspace/garden/hell/humidity.csv`
+  - `/mnt/data/Developing/hermes-workspace/garden/hell/lux.csv`
+  - Data range: 2026-05-14 to 2026-05-24 (992 readings per file)
+
+## Tent Setup Reference (vegetable-tent.md)
+
+- **Light:** Purple LED panel — switches: VEG / FULL SPECTRUM / BLOOM
+- **Extractor Fan:** Synced to light timer
+- **Circulation Fan:** 24/7
+- **Light Cycle:** 20/4 for cannabis (vegetables share tent)
+- **ThingSpeak:** Channel 2785218 — Field 1=Temp, Field 2=Hum, Field 3=Lux, Field 4=Soil Moisture (%)
+- **Soil moisture sensor:** Capacitive soil moisture v1.2, calibrated % (not raw ADC)
+- **Current tent conditions (May 2026):** ~21°C avg, 51% hum, 414 lux avg, 58% soil moisture
+- **Lemon Haze:** Harvested Day 108 (25/05/2026) — grow log ended
 
 ## Cronjob Debugging & Fixing Workflow
 

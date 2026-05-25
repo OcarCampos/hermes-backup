@@ -7,7 +7,14 @@ description: End-of-week report generation and task archival for O'car. Reads TA
 ## Trigger
 End of week (Friday) — user wants to compile weekly report and archive done tasks.
 
-## Steps
+## Alternative: User-provided task list (ad-hoc archive)
+Sometimes O'car reports done tasks without giving a full formatted report — e.g. pasting a raw semicolon list.
+When that happens:
+1. Read TASKS.md and tasks-archive.md to understand current state
+2. Add each done task to TASKS.md with `DONE` tag
+3. Archive each to tasks-archive.md in archive format
+4. Projection items (e.g. "next week May 25-29") → add as new pending tasks to TASKS.md
+5. Flag any stale tasks (e.g. harvest dates that have passed) for follow-up
 
 1. **Read current TASKS.md** to get all done tasks from the week
 2. **Read tasks-archive.md** to confirm archive format: `date_created;date_completed;tag;status;title;description`

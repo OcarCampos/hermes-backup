@@ -1,0 +1,30 @@
+{
+  "session_id": "20260524_233524_768de2",
+  "model": "MiniMax-M2.7",
+  "base_url": "https://api.minimax.io/anthropic",
+  "platform": "telegram",
+  "session_start": "2026-05-24T23:35:24.055817",
+  "last_updated": "2026-05-24T23:35:26.173384",
+  "system_prompt": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nConversation started: Sunday, May 24, 2026 11:35 PM\nModel: MiniMax-M2.7\nProvider: minimax\n\nYou are on a text messaging communication platform, Telegram. Please do not use markdown as it does not render. You can send media files natively: to deliver a file to the user, include MEDIA:/absolute/path/to/file in your response. Images (.png, .jpg, .webp) appear as photos, audio (.ogg) sends as voice bubbles, and videos (.mp4) play inline. You can also include image URLs in markdown format ![alt](url) and they will be sent as native photos.",
+  "tools": [],
+  "message_count": 2,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Research insulation options for 60x60x180cm indoor grow tent. Search piranha.cl for insulation, reflective bubble wrap, foam panels, neoprene. Find R-values, prices in CLP, fire safety notes, and installation tips. Look for terms: aislamiento térmico, burbuja reflectante, espuma reflectante, aislamiento indoor."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll research insulation options for your grow tent by searching piranha.cl and related LatAm grow shops. Let me start by searching for the relevant products and information.\n[TOOL_CALL]\n{tool => \"websearch\", args => {\n  --q \"site:piranha.cl aislamiento térmico indoor grow tienda cultivo\"\n  --num 10\n  --budget 0\n}}\n[/TOOL_CALL]\n[TOOL_CALL]\n{tool => \"websearch\", args => {\n  --q \"piranha.cl burbuja reflectante aislamiento cultivo indoor Chile precios\"\n  --num 10\n  --budget 0\n}}\n[/TOOL_CALL]\n[TOOL_CALL]\n{tool => \"websearch\", args => {\n  --q \"espuma reflectante panel aislamiento tienda cultivo indoor Chile CLP\"\n  --num 10\n  --budget 0\n}}\n[/TOOL_CALL]",
+      "reasoning": "The user wants me to research insulation options for a 60x60x180cm indoor grow tent. I need to search piranha.cl for various insulation materials and provide information about R-values, prices in CLP, fire safety notes, and installation tips.\n\nLet me start by searching for information on piranha.cl about these insulation materials. I'll need to use web search to find this information.\n",
+      "finish_reason": "stop",
+      "reasoning_details": [
+        {
+          "signature": "861e6c6d28bc762c949d3dcecf2878925c21a00d301238e30e5262f0e5281eb1",
+          "thinking": "The user wants me to research insulation options for a 60x60x180cm indoor grow tent. I need to search piranha.cl for various insulation materials and provide information about R-values, prices in CLP, fire safety notes, and installation tips.\n\nLet me start by searching for information on piranha.cl about these insulation materials. I'll need to use web search to find this information.\n",
+          "type": "thinking"
+        }
+      ]
+    }
+  ]
+}
