@@ -7,49 +7,57 @@ description: Task tracking workflow for the Nork138 workspace — TASKS.md, ==DO
 ## Overview
 Task management system for the Nork138 workspace at `/mnt/data/Developing/hermes-workspace/`.
 
-## File Structure
+## Weekly Report Generation
 
-| File | Purpose |
-|------|---------|
-| `TASKS.md` | Active + current-week done tasks |
-| `archive/YYYY-MM.md` | Permanent archive of completed tasks |
+**Critical rule: ==DONE== is NOT cleared until AFTER the weekly report is generated and the user confirms archival.** Never delete or clear DONE entries before the user explicitly archives. The user expects DONE to persist across sessions until Friday archival.
 
+The weekly report is a **work log**, not just a closed-tasks list. It records what you did with your time — whether a task was finished or will continue the following week.
+
+**What goes into the weekly report:**
+- All tasks that had work done during the week, regardless of completion status
+- Closed/completed items → `==DONE==` → reported as done → archived after report confirmed
+- Open/ongoing items → `==TASKS==` → reported as in-progress → stay in TASKS.md
+
+**Do NOT** generate the report from `==DONE==` alone. Scan all task entries for week-dated log notes.
+
+### Weekly report (Friday)
+1. Scan ALL tasks in TASKS.md (both ==TASKS== and ==DONE==) for entries dated within the week
+2. Generate report from all week-dated entries:
+   - Closed items (in ==DONE==) → reported as completed
+   - Open items (in ==TASKS==) → reported as in-progress/continuing next week
+3. Report in Spanish, semicolon-delimited CSV format:
+   ```
+   DD-MM-YYYY;work;Task Title;Brief description.
+   ```
+4. **Wait for user confirmation before archiving**
+5. Move ONLY the closed (==DONE==) entries to archive/YYYY-MM.md
+6. Clear ==DONE== section
+
+### Archive Format (tasks-archive.md)
+```
+date_created;date_completed;tag;status;title;description
+```
+When created and completed are the same day, both dates are identical (e.g., `25-05-2026;25-05-2026`).
 ## Sections in TASKS.md
 
 - `==TASKS==` — active, waiting, pending tasks (all tags)
 - `==DONE==` — completed tasks from the **current week only**. Accumulates here as you go during the week — never empty during active work. Only cleared after the weekly report is generated.
 - `==ARCHIVE==` — staging marker only (empty after weekly report clears DONE)
 
-## The Critical Rule
+## Core Principle: Activity-Level Tracking
 
-**`==DONE==` is NOT archived until the weekly report is generated.**
+Each distinct logical unit of work (a meeting, a conversion run, a review session, a support call, a template correction) is a **separate DONE entry** in TASKS.md. You do NOT wait for the parent project to be finished.
 
-Weekly report = Friday (or on-demand). Only then are DONE tasks moved to `archive/YYYY-MM.md`.
+- A meeting with L. Serrano → one DONE entry, same day
+- A PDF conversion batch run → one DONE entry, same day
+- A template correction → one DONE entry, same day
+- The full project (e.g. "SRS report") stays in `==TASKS==` with log entries showing progress until fully closed
 
-During the week: DONE stays in TASKS.md so it's visible and reportable at any time.
-
-## Daily Workflow
-
-### Logging a done task
-Add entry to `==DONE==` in TASKS.md:
-```
-YYYY-MM-DD;tag;completed;Title — Description
-```
-Example:
-```
-2026-05-15;work;completed;E-377 — GCP plaques field placement: Tunnel Entrance, Tunnel Exit, Cofferdam
-```
-
-**Important:** When a sub-task of an active item is completed (e.g. field work for E-377), the parent task stays active until the full deliverable is closed. Only mark the parent done when the entire task loop is complete.
+This ensures the weekly report accurately reflects how time was spent, not just what was closed.
 
 ### End of day
 1. Do NOT immediately archive — leave tasks in `==DONE==`
-2. `==DONE==` is ready for the weekly report whenever it's generated
-
-### Weekly report (Friday)
-1. Generate report from `==DONE==` content
-2. Move DONE entries to `archive/YYYY-MM.md` with two-date format: `date_created;date_completed;tag;status;title;description`
-3. Clear `==DONE==` section
+2. `==DONE==` is ready for the weekly report whenever it is generated
 
 ### The Archive Format
 Entries in `archive/YYYY-MM.md` use two dates:
