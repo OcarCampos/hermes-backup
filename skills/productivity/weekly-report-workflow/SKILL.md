@@ -45,3 +45,11 @@ Example: `04-05-2026;04-05-2026;work;done;Audio transcription script for PBX cal
 - Week reference: Monday-Friday of the week
 - Reports are in Spanish (user's workplace is Chile)
 - Active/pending items typically: E-377 AsBuilt, Bimbao development, Autodesk renewal, garden tasks, personal projects
+
+**Date inference from end-of-day summaries:**
+When the user shares "here's what I did today" on the NEXT day (e.g., message sent Thu Jun 4), the work date is the DAY BEFORE the message was sent — not the message date. Always confirm the actual work date when the user shares summaries the following morning.
+
+Example:
+- Message sent: Thu Jun 4 morning
+- User says: "Here's what I did today" → "today" = Wed Jun 3, NOT Jun 4
+- The message timestamp ≠ the work date

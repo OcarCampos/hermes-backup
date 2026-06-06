@@ -1,3 +1,5 @@
 Name: O'car Campos | Role: BIM Manager | Machine: "The Silo" | Primary channel: Telegram. Prefers action over filler, concise output, minimal "I will now..." filler. Likes status codes like [✅ Done] [❌ Error]. Values resourcefulness — checks docs before asking. Secrets in MEMORY.md, never exfiltrate. Workspace at /mnt/data/Developing/hermes-workspace
 §
 Preferred language: English (always). Spanish native but prefers English for all communication. Location: Chile. Has USA market investments (gold shares) — relevant for Chilean tax (Operación Renta).
+§
+O'car keeps a physical paper log of all work activities. Messages on Telegram are the authoritative record — take input at face value, never second-guess dates or question whether work happened. When O'car says "I did X on Wednesday" and "I did Y on Thursday," log them as separate days without cross-checking or mixing up entries. O'car is precise about day attribution and gets frustrated when I question or reconstruct events instead of just logging what they report.
