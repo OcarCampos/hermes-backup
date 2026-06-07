@@ -34,6 +34,24 @@ When that happens:
 5. **Clean TASKS.md**: delete archived entries, keep only active/pending
 6. **Confirm**: list remaining active/pending tasks
 
+## Report Output Format (for sending)
+When O'car asks "give me the weekly report so I can send it," generate CSV in this format:
+```
+DD-MM-YYYY;work;short title;full description of what was done, outcomes, and relevant context
+DD-MM-YYYY;work;short title;full description
+...
+```
+
+**Format rules:**
+- Semicolon-separated, no spaces after semicolons
+- Date = actual day work was done (not today, not when reported)
+- Title = brief (one line, <80 chars)
+- Desc = substantive — what was done, with whom, outcomes, next steps
+- No date duplication — each row gets its actual day
+- ALWAYS verify all 5 weekdays (Mon–Fri) are included — Monday is frequently missed, check carefully before delivering
+
+**Common mistake:** Do NOT use today's date (05-06-2026) for all entries. Each day gets its own date.
+
 ## Archive Format (tasks-archive.md)
 ```
 date_created;date_completed;tag;status;title;description
@@ -46,10 +64,5 @@ Example: `04-05-2026;04-05-2026;work;done;Audio transcription script for PBX cal
 - Reports are in Spanish (user's workplace is Chile)
 - Active/pending items typically: E-377 AsBuilt, Bimbao development, Autodesk renewal, garden tasks, personal projects
 
-**Date inference from end-of-day summaries:**
-When the user shares "here's what I did today" on the NEXT day (e.g., message sent Thu Jun 4), the work date is the DAY BEFORE the message was sent — not the message date. Always confirm the actual work date when the user shares summaries the following morning.
-
-Example:
-- Message sent: Thu Jun 4 morning
-- User says: "Here's what I did today" → "today" = Wed Jun 3, NOT Jun 4
-- The message timestamp ≠ the work date
+**Important — O'car's reporting pattern:**
+O'car sends one message per day he worked, typically in the morning or evening of the same day. When he says "I did X on Wednesday," log it as Wednesday. Do NOT second-guess dates or reconstruct events — take the day's attribution at face value. He keeps a physical paper log and the Telegram messages are the authoritative record. Mixing up day attribution frustrates him.
