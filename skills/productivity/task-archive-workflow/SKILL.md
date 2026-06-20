@@ -78,6 +78,41 @@ date_created;date_completed
 **Cause:** Entries added manually with inconsistent formats.
 **Fix:** Always use `date_created;date_completed` format in archive files. Second date = when marked done.
 
+### Orphaned Completed Entries (Pre-Existing Staleness)
+**Symptom:** Before archiving, there are completed entries above the `==DONE==` section (e.g., entries from Mon/Tue that should have been archived last week but weren't).
+**Cause:** Prior week's DONE section wasn't fully cleared, leaving completed entries sitting above `==DONE==` with no section marker.
+**Detection:** Before any archive operation, scan all lines above `==DONE==` for lines starting with `- ` that have `status;completed` — these are orphans.
+**Fix:** Remove ALL orphan completed entries before archiving. Do not leave them in the file. This is a full-file rebuild situation, not a patch situation.
+
+### Prefer Python Over Terminal/Patch for TASKS.md Edits
+**Symptom:** `patch` or `terminal` sed operations fail to find strings, or lines lose their `- ` bullet prefix after replacement.
+**Cause:** Task descriptions contain em-dashes (—), curly quotes, special Unicode characters that make exact string matching unreliable from the shell.
+**Fix:** Use Python for all TASKS.md multi-step edits. Read the file with Python, manipulate strings in memory, write the complete file back. This avoids:
+- Em-dash / special character matching failures
+- Bullet prefix (`- `) being dropped during inline replacements
+- Stray newlines or missing separators between entries
+
+Python pattern for clean TASKS.md rebuild:
+```python
+tasks = [
+    ("active", "02-06-2026", "work", "Task title", "description"),
+    # ...
+]
+lines = [header, "==DONE==\n\n==TASKS==\n"]
+for status, date, tag, title, desc in tasks:
+    lines.append(f"- {date};{tag};{status};{title};{desc}")
+content = '\n'.join(lines) + '\n'
+open('TASKS.md', 'w', encoding='utf-8').write(content)
+```
+
+### Pre-Archive Status Changes
+Before running the weekly report, O'car may provide status updates for specific tasks:
+- `pending` → `active` (work is underway)
+- `pending` → `completed` (task done, not in DONE section — e.g. ORD response published)
+- Task descriptions to update with new log entries
+
+Handle these updates BEFORE generating the report and BEFORE archiving. Update the full task list in memory, write the file, then proceed with report + archive.
+
 ## Tag Definitions
 - `work` — BIM projects, client deliverables, Luis Serrano reports
 - `home` — Household tasks, watering, rent, appointments

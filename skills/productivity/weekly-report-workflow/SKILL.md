@@ -16,6 +16,13 @@ When that happens:
 4. Projection items (e.g. "next week May 25-29") → add as new pending tasks to TASKS.md
 5. Flag any stale tasks (e.g. harvest dates that have passed) for follow-up
 
+**IMPORTANT — Pre-report task updates:**
+Before generating the report, O'car may provide specific updates to existing tasks (status changes, new log entries, items to archive without going through DONE). Handle these first:
+1. Update task statuses (e.g. `pending` → `active`, `pending` → `completed`)
+2. Add new log entries to existing task descriptions
+3. Remove tasks O'car explicitly archives
+4. Only then generate the report and archive DONE entries
+
 1. **Read current TASKS.md** to get all done tasks from the week
 2. **Read tasks-archive.md** to confirm archive format: `date_created;date_completed;tag;status;title;description`
 3. **Generate report in chat** with format:
@@ -49,6 +56,7 @@ DD-MM-YYYY;work;short title;full description
 - Desc = substantive — what was done, with whom, outcomes, next steps
 - No date duplication — each row gets its actual day
 - ALWAYS verify all 5 weekdays (Mon–Fri) are included — Monday is frequently missed, check carefully before delivering
+- Language: English for all Hermes communication. Report title can be in Spanish if user context is Spanish-speaking (e.g., "Informe Semanal"). The CSV content itself uses English task titles/descriptions as delivered by the user.
 
 **Common mistake:** Do NOT use today's date (05-06-2026) for all entries. Each day gets its own date.
 
