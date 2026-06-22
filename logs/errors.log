@@ -9337,3 +9337,5 @@ Traceback (most recent call last):
 telegram.error.TimedOut: Timed out
 2026-06-16 05:29:39,608 WARNING gateway.platforms.telegram: [Telegram] Telegram polling reconnect failed: Timed out
 2026-06-16 05:29:39,608 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: Timed out
+2026-06-21 05:01:09,331 WARNING gateway.platforms.telegram: [Telegram] Telegram network error, scheduling reconnect: httpx.ReadError: 
+2026-06-21 05:01:09,332 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ReadError: 
