@@ -105,6 +105,18 @@ This ensures the weekly report accurately reflects how time was spent, not just 
 **Cause:** Task descriptions contain em-dashes (—), curly quotes, special Unicode characters that make exact string matching unreliable from the shell.
 **Fix:** Use Python for all TASKS.md multi-step edits. Read the file with Python, manipulate strings in memory, write the complete file back.
 
+**Special case — truncated long entries:** When a task entry is too long for read_file to display in full (truncated in output), the visible tail may share a suffix with nearby content, making `old_string` non-unique and causing patch to corrupt the file (e.g., duplicate lines, wrong replacement). Never patch a string you cannot fully read.
+**Fix:** Use execute_code to read the raw file and find the exact unique substring to replace:
+```python
+with open("/path/to/TASKS.md", "r") as f:
+    lines = f.readlines()
+# Find the line you need, inspect the full tail
+for i, line in enumerate(lines):
+    if "TARGET TASK NAME" in line:
+        print(repr(line[-300:]))  # inspect tail
+        break
+```
+
 Python pattern for clean TASKS.md rebuild:
 ```python
 tasks = [
