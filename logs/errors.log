@@ -9348,3 +9348,4 @@ telegram.error.TimedOut: Timed out
 2026-06-30 04:56:57,102 WARNING gateway.platforms.telegram: [Telegram] Telegram network error, scheduling reconnect: httpx.RemoteProtocolError: Server disconnected without sending a response.
 2026-06-30 04:56:57,103 WARNING gateway.platforms.telegram: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.RemoteProtocolError: Server disconnected without sending a response.
 2026-07-02 23:51:01,093 WARNING gateway.platforms.telegram: [Telegram] Telegram polling conflict (1/3), will retry in 10s. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-03 11:36:45,923 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 

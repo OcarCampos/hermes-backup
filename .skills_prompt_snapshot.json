@@ -338,8 +338,12 @@
       9194
     ],
     "productivity/task-archive-workflow/SKILL.md": [
-      1781942755490471451,
-      7333
+      1783029091335718778,
+      8035
+    ],
+    "productivity/tasks-md-logging/SKILL.md": [
+      1783065842628863667,
+      2278
     ],
     "productivity/weekly-report-archiving/SKILL.md": [
       1779523531334848723,
@@ -1640,6 +1644,19 @@
       "category": "productivity",
       "frontmatter_name": "task-archive-workflow",
       "description": "Task tracking workflow for the Nork138 workspace — TASKS....",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "tasks-md-logging",
+      "category": "productivity",
+      "frontmatter_name": "tasks-md-logging",
+      "description": "Log O'car's end-of-day work activities to ~/workspace/tas...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
