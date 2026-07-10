@@ -73,6 +73,10 @@
       1775235409404574641,
       4426
     ],
+    "devops/embalselaspalmas-cloudflare-rules/SKILL.md": [
+      1783584141009493993,
+      1418
+    ],
     "devops/qbittorrent/SKILL.md": [
       1776184746976865420,
       2981
@@ -773,6 +777,19 @@
       "category": "devops",
       "frontmatter_name": "agent-browser",
       "description": "Headless browser automation CLI for AI agents. Use when n...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "embalselaspalmas-cloudflare-rules",
+      "category": "devops",
+      "frontmatter_name": "embalselaspalmas-cloudflare-rules",
+      "description": "Cloudflare WAF firewall rules for embalselaspalmas.cl — g...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
