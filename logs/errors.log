@@ -2280,3 +2280,5 @@ telegram.error.TimedOut: Timed out
 2026-07-09 04:41:37,647 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
 2026-07-09 04:41:47,650 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
 2026-07-09 04:41:59,377 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.167.220
+2026-07-11 15:47:48,928 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-11 18:06:20,525 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
