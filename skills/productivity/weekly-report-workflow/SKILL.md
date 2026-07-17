@@ -1,11 +1,28 @@
 ---
 name: weekly-report-workflow
-description: End-of-week report generation and task archival for O'car. Reads TASKS.md, generates Spanish-format weekly report in chat, archives done tasks to tasks-archive.md, cleans TASKS.md.
+description: "Two workflows: (1) End-of-day summary — log daily activities to TASKS.md ==DONE== immediately. (2) End-of-week report — Friday compilation and archival."
 ---
 # Weekly Report Workflow
 
-## Trigger
-End of week (Friday) — user wants to compile weekly report and archive done tasks.
+## Workflow 1: End of Day Summary
+
+O'car reports what he did today → immediately add each activity to TASKS.md `==DONE==` section. Do NOT wait for Friday.
+
+**Format in TASKS.md:**
+```
+- DD-MM-YYYY;tag;status;title;description
+```
+- `status` always: `completed`
+- One line per distinct activity (meeting, batch run, review session, support call each get their own entry)
+- Activities are NOT waited until the parent project is closed
+
+**After adding to TASKS.md:**
+- Confirm with a brief summary: "Logged X activities to TASKS.md"
+- No archival yet — that happens on Friday
+
+---
+
+## Workflow 2: End of Week (Friday) — Weekly Report + Archival
 
 ## Alternative: User-provided task list (ad-hoc archive)
 Sometimes O'car reports done tasks without giving a full formatted report — e.g. pasting a raw semicolon list.

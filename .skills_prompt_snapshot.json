@@ -354,8 +354,8 @@
       1558
     ],
     "productivity/weekly-report-workflow/SKILL.md": [
-      1781902346293788259,
-      4129
+      1784248343124239206,
+      4659
     ],
     "red-teaming/godmode/SKILL.md": [
       1775182620684308091,
@@ -1699,7 +1699,7 @@
       "skill_name": "weekly-report-workflow",
       "category": "productivity",
       "frontmatter_name": "weekly-report-workflow",
-      "description": "End-of-week report generation and task archival for O'car...",
+      "description": "Two workflows: (1) End-of-day summary — log daily activit...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
