@@ -9797,3 +9797,4 @@ telegram.error.TimedOut: Timed out
 2026-07-19 10:22:40,922 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
 2026-07-19 10:22:50,924 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
 2026-07-19 10:23:00,927 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-20 20:54:40,090 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
