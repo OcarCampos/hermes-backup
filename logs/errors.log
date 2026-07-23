@@ -9798,3 +9798,17 @@ telegram.error.TimedOut: Timed out
 2026-07-19 10:22:50,924 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
 2026-07-19 10:23:00,927 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
 2026-07-20 20:54:40,090 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-21 21:44:28,150 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-07-21 21:44:28,152 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-21 21:44:28,152 WARNING gateway.platforms.telegram: [Telegram] Connect attempt 1/3 failed: httpx.ConnectError: All connection attempts failed — retrying in 1s
+2026-07-21 21:44:29,154 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-07-21 21:44:29,155 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-21 21:44:29,155 WARNING gateway.platforms.telegram: [Telegram] Connect attempt 2/3 failed: httpx.ConnectError: All connection attempts failed — retrying in 2s
+2026-07-21 21:47:21,692 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.167.220
+2026-07-21 21:47:22,583 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.167.220
+2026-07-22 10:11:12,314 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-07-22 10:11:12,315 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-22 10:11:12,316 WARNING gateway.platforms.telegram: [Telegram] Connect attempt 1/3 failed: httpx.ConnectError: All connection attempts failed — retrying in 1s
+2026-07-22 10:11:13,319 WARNING gateway.platforms.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno -3] Temporary failure in name resolution); trying fallback IPs 149.154.167.220
+2026-07-22 10:11:13,320 WARNING gateway.platforms.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-22 10:11:13,320 WARNING gateway.platforms.telegram: [Telegram] Connect attempt 2/3 failed: httpx.ConnectError: All connection attempts failed — retrying in 2s
